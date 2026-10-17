@@ -1,0 +1,20 @@
+{
+  "id": "traditional-culture-zuo-bei-chao-nan",
+  "title": "坐北朝南：从太阳高度角看采光",
+  "category": "traditional-culture",
+  "slug": "zuo-bei-chao-nan",
+  "status": "animating",
+  "summary": "用太阳高度角解释坐北朝南：为什么正午的阳光总在南边，以及冬夏两季光能照进屋子多深。",
+  "tags": ["居住智慧", "采光", "太阳高度角", "节气"],
+  "createdAt": "2026-10-17",
+  "durationInFrames": 2180,
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "audio": {
+    "narration": "",
+    "bgm": ""
+  }
+}

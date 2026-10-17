@@ -1,0 +1,20 @@
+{
+  "id": "category-slug",
+  "title": "视频标题",
+  "category": "category",
+  "slug": "slug",
+  "status": "idea",
+  "summary": "一句话说明本期讲什么。",
+  "tags": [],
+  "createdAt": "2026-10-17",
+  "durationInFrames": 1800,
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "audio": {
+    "narration": "",
+    "bgm": ""
+  }
+}

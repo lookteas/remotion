@@ -1,0 +1,42 @@
+{
+  "name": "remotion-knowledge-videos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "用 Remotion 制作知识科普视频",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "compositions": "remotion compositions",
+    "render": "remotion render",
+    "still": "remotion still",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.2.0",
+    "@remotion/animated-emoji": "4.0.536",
+    "@remotion/animation-utils": "4.0.536",
+    "@remotion/cli": "4.0.536",
+    "@remotion/cloudrun": "4.0.536",
+    "@remotion/enable-scss": "4.0.536",
+    "@remotion/fonts": "4.0.536",
+    "@remotion/gif": "4.0.536",
+    "@remotion/layout-utils": "4.0.536",
+    "@remotion/licensing": "4.0.536",
+    "@remotion/lottie": "4.0.536",
+    "@remotion/motion-blur": "4.0.536",
+    "@remotion/noise": "4.0.536",
+    "@remotion/paths": "4.0.536",
+    "@remotion/rounded-text-box": "4.0.536",
+    "@remotion/whisper-web": "4.0.536",
+    "@remotion/whisper-webgpu": "4.0.536",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.536"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.7.2"
+  }
+}
