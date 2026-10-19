@@ -1,0 +1,483 @@
+{
+  "fps": 30,
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+5%",
+  "scenes": [
+    {
+      "id": "life",
+      "from": 0,
+      "durationInFrames": 629,
+      "captions": [
+        {
+          "text": "你有没有过这样的经历？",
+          "startMs": 800,
+          "endMs": 3133,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/life-01.mp3",
+          "from": 24,
+          "durationInFrames": 70
+        },
+        {
+          "text": "刚开始做一件事，哪哪都不顺。",
+          "startMs": 3367,
+          "endMs": 6667,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/life-02.mp3",
+          "from": 101,
+          "durationInFrames": 99
+        },
+        {
+          "text": "好不容易顺起来了，又担心：会不会出什么岔子？",
+          "startMs": 6900,
+          "endMs": 11667,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/life-03.mp3",
+          "from": 207,
+          "durationInFrames": 143
+        },
+        {
+          "text": "工作、过日子、带孩子，我们每天都在面对变化。",
+          "startMs": 11900,
+          "endMs": 16567,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/life-04.mp3",
+          "from": 357,
+          "durationInFrames": 140
+        },
+        {
+          "text": "几千年前的人，也在琢磨这些事。",
+          "startMs": 16800,
+          "endMs": 20067,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/life-05.mp3",
+          "from": 504,
+          "durationInFrames": 98
+        }
+      ]
+    },
+    {
+      "id": "lines",
+      "from": 629,
+      "durationInFrames": 583,
+      "captions": [
+        {
+          "text": "说到易经，很多人先想到那些看不懂的横杠。",
+          "startMs": 800,
+          "endMs": 4833,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/lines-01.mp3",
+          "from": 24,
+          "durationInFrames": 121
+        },
+        {
+          "text": "咱们先认两个样子。",
+          "startMs": 5067,
+          "endMs": 7133,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/lines-02.mp3",
+          "from": 152,
+          "durationInFrames": 62
+        },
+        {
+          "text": "一根完整的，叫阳爻。",
+          "startMs": 7367,
+          "endMs": 10433,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/lines-03.mp3",
+          "from": 221,
+          "durationInFrames": 92
+        },
+        {
+          "text": "一根中间断开的，叫阴爻。",
+          "startMs": 10667,
+          "endMs": 13933,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/lines-04.mp3",
+          "from": 320,
+          "durationInFrames": 98
+        },
+        {
+          "text": "爻，你先把它理解成组成卦象的一笔。",
+          "startMs": 14167,
+          "endMs": 18533,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/lines-05.mp3",
+          "from": 425,
+          "durationInFrames": 131
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "from": 1212,
+      "durationInFrames": 820,
+      "captions": [
+        {
+          "text": "把这样的笔画一层层叠起来，就能组成不同图样。",
+          "startMs": 800,
+          "endMs": 5633,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/build-01.mp3",
+          "from": 24,
+          "durationInFrames": 145
+        },
+        {
+          "text": "三层的，有八种，叫八卦。",
+          "startMs": 5867,
+          "endMs": 9400,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/build-02.mp3",
+          "from": 176,
+          "durationInFrames": 106
+        },
+        {
+          "text": "两组三层的再上下叠起来，就成了六层的卦。",
+          "startMs": 9633,
+          "endMs": 14267,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/build-03.mp3",
+          "from": 289,
+          "durationInFrames": 139
+        },
+        {
+          "text": "把不同样子都摆出来，一共有六十四种。",
+          "startMs": 14500,
+          "endMs": 18100,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/build-04.mp3",
+          "from": 435,
+          "durationInFrames": 108
+        },
+        {
+          "text": "这就是六十四卦的基本结构。",
+          "startMs": 18333,
+          "endMs": 21333,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/build-05.mp3",
+          "from": 550,
+          "durationInFrames": 90
+        },
+        {
+          "text": "至于这些符号在历史上怎样形成，是另一个故事。",
+          "startMs": 21567,
+          "endMs": 26433,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/build-06.mp3",
+          "from": 647,
+          "durationInFrames": 146
+        }
+      ]
+    },
+    {
+      "id": "stories",
+      "from": 2032,
+      "durationInFrames": 519,
+      "captions": [
+        {
+          "text": "可光有图样，怎么讲事情呢？",
+          "startMs": 800,
+          "endMs": 4133,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/stories-01.mp3",
+          "from": 24,
+          "durationInFrames": 100
+        },
+        {
+          "text": "易经给不同的卦配上名字和文字，谈处境，也谈行动。",
+          "startMs": 4367,
+          "endMs": 9633,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/stories-02.mp3",
+          "from": 131,
+          "durationInFrames": 158
+        },
+        {
+          "text": "咱们借几件今天的小事，体会一下。",
+          "startMs": 9867,
+          "endMs": 13033,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/stories-03.mp3",
+          "from": 296,
+          "durationInFrames": 95
+        },
+        {
+          "text": "这些是帮助理解的生活比方。",
+          "startMs": 13267,
+          "endMs": 16400,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/stories-04.mp3",
+          "from": 398,
+          "durationInFrames": 94
+        }
+      ]
+    },
+    {
+      "id": "cooking",
+      "from": 2551,
+      "durationInFrames": 728,
+      "captions": [
+        {
+          "text": "第一次学做饭，火大了，菜糊了，盐还放多了。",
+          "startMs": 800,
+          "endMs": 5533,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/cooking-01.mp3",
+          "from": 24,
+          "durationInFrames": 142
+        },
+        {
+          "text": "这时候，你会不会想：我是不是就不适合？",
+          "startMs": 5767,
+          "endMs": 10300,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/cooking-02.mp3",
+          "from": 173,
+          "durationInFrames": 136
+        },
+        {
+          "text": "屯卦，谈到事情初生时的艰难。",
+          "startMs": 10533,
+          "endMs": 14133,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/cooking-03.mp3",
+          "from": 316,
+          "durationInFrames": 108
+        },
+        {
+          "text": "借这个意思看学做饭：先把一步学会，再接着学下一步。",
+          "startMs": 14367,
+          "endMs": 19567,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/cooking-04.mp3",
+          "from": 431,
+          "durationInFrames": 156
+        },
+        {
+          "text": "一次做砸，不必急着给自己下结论。",
+          "startMs": 19800,
+          "endMs": 23367,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/cooking-05.mp3",
+          "from": 594,
+          "durationInFrames": 107
+        }
+      ]
+    },
+    {
+      "id": "seed",
+      "from": 3279,
+      "durationInFrames": 669,
+      "captions": [
+        {
+          "text": "种下一粒种子，第二天没动静，第三天也没动静。",
+          "startMs": 800,
+          "endMs": 5500,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/seed-01.mp3",
+          "from": 24,
+          "durationInFrames": 141
+        },
+        {
+          "text": "总不能每天扒开土，问它怎么还不长。",
+          "startMs": 5733,
+          "endMs": 9533,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/seed-02.mp3",
+          "from": 172,
+          "durationInFrames": 114
+        },
+        {
+          "text": "需卦里，有等待的意思。",
+          "startMs": 9767,
+          "endMs": 12700,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/seed-03.mp3",
+          "from": 293,
+          "durationInFrames": 88
+        },
+        {
+          "text": "该等的时候，照样能浇水、照料，把能做的先做好。",
+          "startMs": 12933,
+          "endMs": 18167,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/seed-04.mp3",
+          "from": 388,
+          "durationInFrames": 157
+        },
+        {
+          "text": "有些进展，暂时还看不见。",
+          "startMs": 18400,
+          "endMs": 21400,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/seed-05.mp3",
+          "from": 552,
+          "durationInFrames": 90
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "from": 3948,
+      "durationInFrames": 708,
+      "captions": [
+        {
+          "text": "后来，饭做得熟练了，别人一夸，就觉得自己什么都会了。",
+          "startMs": 800,
+          "endMs": 6167,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/learning-01.mp3",
+          "from": 24,
+          "durationInFrames": 161
+        },
+        {
+          "text": "可换一道新菜，照样可能翻车。",
+          "startMs": 6400,
+          "endMs": 9600,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/learning-02.mp3",
+          "from": 192,
+          "durationInFrames": 96
+        },
+        {
+          "text": "谦卦，让人想到谦逊和分寸。",
+          "startMs": 9833,
+          "endMs": 13267,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/learning-03.mp3",
+          "from": 295,
+          "durationInFrames": 103
+        },
+        {
+          "text": "会做的，认真做；不会的，接着学。",
+          "startMs": 13500,
+          "endMs": 17900,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/learning-04.mp3",
+          "from": 405,
+          "durationInFrames": 132
+        },
+        {
+          "text": "给别人留一点说话的地方，也给自己留一点进步的空间。",
+          "startMs": 18133,
+          "endMs": 22700,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/learning-05.mp3",
+          "from": 544,
+          "durationInFrames": 137
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "from": 4656,
+      "durationInFrames": 801,
+      "captions": [
+        {
+          "text": "六十四卦里，当然还有更多内容。",
+          "startMs": 800,
+          "endMs": 4200,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/ending-01.mp3",
+          "from": 24,
+          "durationInFrames": 102
+        },
+        {
+          "text": "今天，我们先认识了它的样子，也借三个生活片段，摸到一点门道。",
+          "startMs": 4433,
+          "endMs": 10200,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/ending-02.mp3",
+          "from": 133,
+          "durationInFrames": 173
+        },
+        {
+          "text": "下次遇到变化，可以先问问自己。",
+          "startMs": 10433,
+          "endMs": 13933,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/ending-03.mp3",
+          "from": 313,
+          "durationInFrames": 105
+        },
+        {
+          "text": "我现在是什么处境？",
+          "startMs": 14167,
+          "endMs": 16300,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/ending-04.mp3",
+          "from": 425,
+          "durationInFrames": 64
+        },
+        {
+          "text": "有什么值得留心？",
+          "startMs": 16533,
+          "endMs": 18600,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/ending-05.mp3",
+          "from": 496,
+          "durationInFrames": 62
+        },
+        {
+          "text": "下一步，能做点什么？",
+          "startMs": 18833,
+          "endMs": 21667,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/ending-06.mp3",
+          "from": 565,
+          "durationInFrames": 85
+        },
+        {
+          "text": "先把眼前的日子，看清一点。",
+          "startMs": 21900,
+          "endMs": 24967,
+          "timestampMs": null,
+          "confidence": null,
+          "audio": "audio/iching-life/ending-07.mp3",
+          "from": 657,
+          "durationInFrames": 92
+        }
+      ]
+    }
+  ]
+}

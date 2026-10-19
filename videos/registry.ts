@@ -1,6 +1,12 @@
+import metaBazi from './data-analysis/01-bazi-prediction/video.json';
+import BaziPrediction from './data-analysis/01-bazi-prediction';
 import type { ComponentType } from 'react';
 import metaZuoBeiChaoNan from './traditional-culture/01-zuo-bei-chao-nan/video.json';
 import ZuoBeiChaoNan from './traditional-culture/01-zuo-bei-chao-nan';
+import metaIChingLife from './traditional-culture/02-iching-life/video.json';
+import IChingLife from './traditional-culture/02-iching-life';
+import metaChiMaChongYang from './traditional-culture/03-chi-ma-chong-yang/video.json';
+import ChiMaChongYang from './traditional-culture/03-chi-ma-chong-yang';
 
 /**
  * 一期视频的元数据。
@@ -33,10 +39,14 @@ export type VideoEntry = {
  * 新增一期时：
  *   import metaXxx from './<分类>/<序号>-<slug>/video.json';
  *   import Xxx from './<分类>/<序号>-<slug>';
- *   export const videos: VideoEntry[] = [..., { meta: metaXxx, component: Xxx }];
+ *   export const videos: VideoEntry[] = [
+  { meta: metaBazi as VideoMeta, component: BaziPrediction },..., { meta: metaXxx, component: Xxx }];
  *
  * 注意：_template/ 只是骨架，不要登记。
  */
 export const videos: VideoEntry[] = [
+  { meta: metaBazi as VideoMeta, component: BaziPrediction },
   { meta: metaZuoBeiChaoNan as VideoMeta, component: ZuoBeiChaoNan },
+  { meta: metaIChingLife as VideoMeta, component: IChingLife },
+  { meta: metaChiMaChongYang as VideoMeta, component: ChiMaChongYang },
 ];

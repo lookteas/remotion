@@ -1,6 +1,9 @@
+import {BaziSceneCompositions} from '../videos/data-analysis/01-bazi-prediction/SceneCompositions';
 import React from 'react';
 import { Composition } from 'remotion';
 import { videos } from '../videos/registry';
+import { IChingSceneCompositions } from '../videos/traditional-culture/02-iching-life/SceneCompositions';
+import { ChiMaSceneCompositions } from '../videos/traditional-culture/03-chi-ma-chong-yang/SceneCompositions';
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -15,5 +18,8 @@ export const RemotionRoot: React.FC = () => (
         height={meta.format.height}
       />
     ))}
+    <BaziSceneCompositions />
+    <IChingSceneCompositions />
+    <ChiMaSceneCompositions />
   </>
 );

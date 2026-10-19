@@ -1,0 +1,65 @@
+{
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "B01",
+      "from": 0,
+      "durationInFrames": 180
+    },
+    {
+      "id": "B02",
+      "from": 180,
+      "durationInFrames": 180
+    },
+    {
+      "id": "B03",
+      "from": 360,
+      "durationInFrames": 270
+    },
+    {
+      "id": "B04",
+      "from": 630,
+      "durationInFrames": 180
+    },
+    {
+      "id": "B05",
+      "from": 810,
+      "durationInFrames": 210
+    },
+    {
+      "id": "B06",
+      "from": 1020,
+      "durationInFrames": 240
+    },
+    {
+      "id": "B07",
+      "from": 1260,
+      "durationInFrames": 240
+    },
+    {
+      "id": "B08",
+      "from": 1500,
+      "durationInFrames": 240
+    },
+    {
+      "id": "B09",
+      "from": 1740,
+      "durationInFrames": 240
+    },
+    {
+      "id": "B10",
+      "from": 1980,
+      "durationInFrames": 240
+    },
+    {
+      "id": "B11",
+      "from": 2220,
+      "durationInFrames": 240
+    },
+    {
+      "id": "B12",
+      "from": 2460,
+      "durationInFrames": 150
+    }
+  ]
+}

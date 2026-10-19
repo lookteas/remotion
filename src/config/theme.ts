@@ -28,3 +28,33 @@ export const layout = {
   height: 1080,
   fps: 30,
 } as const;
+
+/** 本期黑金科学微纪录片主题，独立于现有采光视频。 */
+export const ichingTheme = {
+  ink: '#090C0F',
+  surface: '#151819',
+  gold: '#C8A66A',
+  goldLight: '#E4CB93',
+  ivory: '#F1E8D7',
+  secondary: '#B8AE9D',
+  muted: '#827C70',
+  vermilion: '#B65B4B',
+  green: '#92A47A',
+  water: '#8FAFB5',
+  soil: '#554335',
+  char: '#302A23',
+  black: '#000000',
+  font: '"IChingSerif", "SimSun", serif',
+  numberFont: '"Georgia", "Times New Roman", serif',
+  safe: 110,
+} as const;
+
+/** Sculpted-paper material palette for the Bazi film. */
+export const baziTheme = {
+  ...ichingTheme,
+  paper: '#E9D9B5', paperLight: '#FFF2D2', paperEdge: '#907552',
+  bronze: '#725532', bronzeDark: '#33281C', metal: '#E9C77F',
+  blue: '#66858B', blueDark: '#273C43',
+  font: '"BaziSerif", serif',
+  width: 1080, height: 1920, left: 88, contentWidth: 832,
+} as const;

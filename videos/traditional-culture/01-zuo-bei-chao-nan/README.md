@@ -1,5 +1,7 @@
 # 坐北朝南：从太阳高度角看采光
 
+动画文字说明见 [ANIMATION.md](ANIMATION.md)，调试截图与检查记录见 [debug/README.md](debug/README.md)。动画说明按当前连续镜头代码补录，下方原分镜表保留作早期方案参考，不作为当前组件清单。
+
 用几何把"坐北朝南"这句老话拆开：避开风水式解释，直接讲清太阳高度角、正午方位、进深三者的关系。
 
 - Composition ID：`traditional-culture-zuo-bei-chao-nan`

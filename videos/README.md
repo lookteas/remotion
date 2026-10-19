@@ -25,12 +25,31 @@ videos/
 
 ```text
 01-<slug>/
-├─ README.md              # 选题、脚本、分镜、数据/素材来源
+├─ ANIMATION.md           # 本期唯一说明入口：选题、分镜、来源、调试与复现
 ├─ video.json             # 元数据：标题、概要、时长、状态、标签（唯一事实来源）
 ├─ index.tsx              # 导出该期的 Composition
 ├─ Scenes.tsx             # 本期专属场景
+├─ debug/
+│  └─ screenshots/        # 按批次归档调试截图与帧清单（本地保留）
 └─ assets/                # 旁白、BGM、配图
 ```
+
+## 先写动画说明，再进入制作
+
+每期使用 `ANIMATION.md` 作为唯一说明入口，结构参见 [动画脚本模板](_template/ANIMATION.md)。它记录选题、上屏文案、逐镜画面与动作、时间轴、素材来源、内容边界、调试记录、复现命令和修改历史，便于后续基于说明生成视频、复制为新一期、回溯改动。新建期次及其子目录不再生成README；已有README保留作历史记录，工程和分类总览README继续使用。
+
+写分镜与开始实现前，先查 [组件与特效清单](../src/CATALOG.md)，再搜索 `src/`、`videos/` 的相关实现；已有公共能力直接引用，单期候选先评估解耦，确认不适用或缺失后才新建。将检索结果与选用原因写入本期脚本的复用检查表；新增或提取能力后同步清单。
+
+只有脚本的选题先建立 `ANIMATION.md`，在分类索引的“脚本草案”区登记；暂不创建可运行组件、`video.json` 或registry条目。进入实际制作时，再按下方流程补齐元数据、组件和注册，移入正式视频清单。草案状态以脚本文档为准；可运行视频元数据仍以 `video.json` 为准。
+
+`ANIMATION.md` 记录制作意图；已有 `content.json` / `timeline.json` 的视频继续用它们管理实际文案与时间轴，调整时同步说明与版本记录。脚本本身不能替代复现所需的代码、依赖锁文件和素材。
+
+## 调试文件归档
+
+- 每期截图独立存放 `debug/screenshots/<批次>/`，调试说明写入本期 `ANIMATION.md`，不新增 `debug/README.md`，不把不同视频的图片混放在根 `out/`。
+- 截图批次应附帧号清单和检查记录；当前可覆盖工作批次用 `latest/`，确认稿用日期或版本号单独保留。旧图未重新检查前，不标为当前版本验收通过。
+- 原始截图目录被Git忽略，但留在本地该期目录；复制或交接目录时要一并带上它，单独Git克隆不会包含这些图片。调试说明和迁移清单正常保留。
+- 根 `out/` 仅用于最终成片、正式封面等交付；打包缓存写根 `.cache/<slug>/`，不混入该期截图目录。
 
 ## 命名规则
 
@@ -56,17 +75,17 @@ Remotion 在无头浏览器里执行打包后的代码，**没有文件系统**�
 
 **不登记 = 视频不存在**：Studio 列表和 `remotion render` 都找不到它。
 
-机制细节与 `Root.tsx` 写法见 [../README.md 第 5 节](../README.md#5-视频是怎么被注册的videosregistryts)。
+整片、独立场景与封面的注册方式见 [工程README：注册与文件职责](../README.md#registration)。
 
 ## 新建一期视频
 
-完整步骤见 [../README.md 第 6 节](../README.md#6-使用流程)。要点如下：
+完整步骤见 [工程README：新建与修改一期视频](../README.md#workflow)。要点如下：
 
-1. 复制 `videos/_template/` 到 `videos/<分类>/<序号>-<slug>/`
-2. 改 `video.json` 和 `index.tsx`
-3. 在 `videos/registry.ts` 里登记（import + 数组条目）
-4. 在该期 `README.md` 写选题、脚本、素材来源
-5. 在分类的 `INDEX.md` 表格增加一行
+1. 新建 `videos/<分类>/<序号>-<slug>/`，先复制模板中的 `ANIMATION.md`，填写并确认选题、文案、分镜与动作；不另建README
+2. 仅撰稿时先在分类“脚本草案”区登记；开始制作时再从模板补 `video.json` 与 `index.tsx`，按需增加内容、时间轴和场景
+3. 在 `videos/registry.ts` 里登记可运行整片（import + 数组条目）
+4. 将草稿移入分类正式视频清单，同步元数据与制作状态
+5. 调试截图保存本期 `debug/screenshots/<批次>/`，调试与复现记录写回 `ANIMATION.md`
 6. 预览与出片：
 
 ```bash

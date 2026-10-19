@@ -1,5 +1,9 @@
 node_modules/
 out/
 .cache/
+# 每期的原始调试图保留在本地项目目录，避免批量二进制图进入 Git。
+videos/**/debug/screenshots/
 *.log
 .DS_Store
+public/fonts/**/NotoSerifSC-original.ttf
+public/audio/iching-life/*.sha256

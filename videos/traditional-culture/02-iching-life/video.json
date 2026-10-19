@@ -1,0 +1,25 @@
+{
+  "id": "traditional-culture-iching-life",
+  "title": "六十四卦，原来可以这样看",
+  "category": "traditional-culture",
+  "slug": "iching-life",
+  "status": "animating",
+  "summary": "从做饭、种植物和继续学习认识屯、需、谦，用直观动画认识爻、八卦和六十四卦。",
+  "tags": [
+    "易经",
+    "六十四卦",
+    "生活智慧",
+    "零基础"
+  ],
+  "createdAt": "2026-10-17",
+  "durationInFrames": 5457,
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "audio": {
+    "narration": "audio/iching-life/",
+    "bgm": ""
+  }
+}

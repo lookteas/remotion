@@ -1,0 +1,205 @@
+{
+  "migratedAt": "2026-10-19",
+  "batch": "screenshots/legacy-2026-10-19",
+  "status": "Imported historical files; not revalidated against current animation",
+  "files": [
+    {
+      "name": "01-life-1.png",
+      "bytes": 2151283,
+      "sha256": "6D94E3AA28804F5AC2D02333F3FEE8EF1E045E970CF3FF1604B894CA06269AD9",
+      "originalPath": "out\\iching-life-review\\01-life-1.png"
+    },
+    {
+      "name": "01-life-2.png",
+      "bytes": 2427671,
+      "sha256": "FDC0A3445A90A69BA00E05F3C7CE87A88D8ED5528AA5DA4B28844A7F140B6D9B",
+      "originalPath": "out\\iching-life-review\\01-life-2.png"
+    },
+    {
+      "name": "01-life-3.png",
+      "bytes": 2441095,
+      "sha256": "B2A3BD6160115B255E37F4F42997197F29E9B3B24FC4F6BC8E06559458A59475",
+      "originalPath": "out\\iching-life-review\\01-life-3.png"
+    },
+    {
+      "name": "02-lines-1.png",
+      "bytes": 2402726,
+      "sha256": "D67F5E7CC2D89B7DED25C030B90B383B69B626CFD9843B0849DE2496CF4EFB32",
+      "originalPath": "out\\iching-life-review\\02-lines-1.png"
+    },
+    {
+      "name": "02-lines-2.png",
+      "bytes": 2399362,
+      "sha256": "0FDE1FA706A512EFA32D598F359BE9FC1AAC3999CF0060B5766BB7948600D3D0",
+      "originalPath": "out\\iching-life-review\\02-lines-2.png"
+    },
+    {
+      "name": "02-lines-3.png",
+      "bytes": 2427613,
+      "sha256": "C50F134A1C42D92251B86BCB7058C050CD302A8A439D4C74195141028030986E",
+      "originalPath": "out\\iching-life-review\\02-lines-3.png"
+    },
+    {
+      "name": "03-build-1.png",
+      "bytes": 2132866,
+      "sha256": "B0665C085D0AB89D08A169A5F5BD10BCF79B46F31B005F4D03AF0A68D214B775",
+      "originalPath": "out\\iching-life-review\\03-build-1.png"
+    },
+    {
+      "name": "03-build-2.png",
+      "bytes": 2099870,
+      "sha256": "16FB08BE4690D70D0C05993119AC986879D1C0D97AFD686701A1A60937EF9B5C",
+      "originalPath": "out\\iching-life-review\\03-build-2.png"
+    },
+    {
+      "name": "03-build-3.png",
+      "bytes": 2223722,
+      "sha256": "57761B47C1F3AD18F722ACBE526CB7D7FC202DC3808921C8119E38BC6953E39D",
+      "originalPath": "out\\iching-life-review\\03-build-3.png"
+    },
+    {
+      "name": "04-stories-1.png",
+      "bytes": 2125676,
+      "sha256": "708A16CC4E089FC7204CE0F566CEC9F11D2DBD7270A5897FB6368C7D4FCA1DBB",
+      "originalPath": "out\\iching-life-review\\04-stories-1.png"
+    },
+    {
+      "name": "04-stories-2.png",
+      "bytes": 2171876,
+      "sha256": "E93D3E96C45B5AE7FDFCE77784F43F21E133446E6135C58F91BE33C45CC2C8B0",
+      "originalPath": "out\\iching-life-review\\04-stories-2.png"
+    },
+    {
+      "name": "04-stories-3.png",
+      "bytes": 2186300,
+      "sha256": "335A9199F9EB1E750DEF8C6D178E7E7FCD764C5FE2B4C842F3DE33222D91B142",
+      "originalPath": "out\\iching-life-review\\04-stories-3.png"
+    },
+    {
+      "name": "05-cooking-1.png",
+      "bytes": 2172720,
+      "sha256": "40B3864506DEB9BB928AB034C72617E796598A97978B68DF345AA9708A934147",
+      "originalPath": "out\\iching-life-review\\05-cooking-1.png"
+    },
+    {
+      "name": "05-cooking-2.png",
+      "bytes": 2180778,
+      "sha256": "0C0FF6024C98FD2CAA6D2F367122EE59DF7FC84B7887C0269389DD93885E459B",
+      "originalPath": "out\\iching-life-review\\05-cooking-2.png"
+    },
+    {
+      "name": "05-cooking-3.png",
+      "bytes": 2468270,
+      "sha256": "DE57D2A09E2CE46C8E9DE3CB81C8E3C39CC1AAABA644929418AD9D28AF18CD99",
+      "originalPath": "out\\iching-life-review\\05-cooking-3.png"
+    },
+    {
+      "name": "06-seed-1.png",
+      "bytes": 2437386,
+      "sha256": "7FEA9F513C1F12D666C307DB3A2C9D541710FB7F7B86C28AC925DD720360EF66",
+      "originalPath": "out\\iching-life-review\\06-seed-1.png"
+    },
+    {
+      "name": "06-seed-2.png",
+      "bytes": 2198816,
+      "sha256": "A57E49C646664CDE70DD82AD1A0A4BC654DF7D3FC48FBB7877692A4017B05A22",
+      "originalPath": "out\\iching-life-review\\06-seed-2.png"
+    },
+    {
+      "name": "06-seed-3.png",
+      "bytes": 2486639,
+      "sha256": "C16E09628B8FCD40A0DDBD8F561753316D59F551907A9B26D97374382F1A18FB",
+      "originalPath": "out\\iching-life-review\\06-seed-3.png"
+    },
+    {
+      "name": "07-learning-1.png",
+      "bytes": 2435198,
+      "sha256": "BCAE7507D29E7519BABA1C3D42EDC29A82A13BE24D32A670A4D218D837E607F4",
+      "originalPath": "out\\iching-life-review\\07-learning-1.png"
+    },
+    {
+      "name": "07-learning-2.png",
+      "bytes": 2456528,
+      "sha256": "F567AC2F2132B33B929023582319CE8C5ED4A34A4B76C4425E316E1826EA7F42",
+      "originalPath": "out\\iching-life-review\\07-learning-2.png"
+    },
+    {
+      "name": "07-learning-3.png",
+      "bytes": 2087102,
+      "sha256": "4C33CE499C96C86459FE8A413F50A14276D1C48CC44947D1CD7D5321BDB96131",
+      "originalPath": "out\\iching-life-review\\07-learning-3.png"
+    },
+    {
+      "name": "08-ending-1.png",
+      "bytes": 2413001,
+      "sha256": "18221D1B3FA1B34189928214DA2E9E4AE914FAAFB14EB1E24C20AA0F051DE0FE",
+      "originalPath": "out\\iching-life-review\\08-ending-1.png"
+    },
+    {
+      "name": "08-ending-2.png",
+      "bytes": 2137483,
+      "sha256": "C2253472DC98F99C9BD80350E4438118CBEE2BE55FF896E55EC6964188EA465E",
+      "originalPath": "out\\iching-life-review\\08-ending-2.png"
+    },
+    {
+      "name": "08-ending-3.png",
+      "bytes": 2137602,
+      "sha256": "62C7C44BE141BA098537D3D4DFC08726B83FE4A56AF580F49BFAE5A5299631FD",
+      "originalPath": "out\\iching-life-review\\08-ending-3.png"
+    },
+    {
+      "name": "contact-1.jpg",
+      "bytes": 121576,
+      "sha256": "F55E6490510F184D5F388265CC5040C0CCC2721E537C87087EFD2E4F40569756",
+      "originalPath": "out\\iching-life-review\\contact-1.jpg"
+    },
+    {
+      "name": "contact-2.jpg",
+      "bytes": 143329,
+      "sha256": "25914651BE97EFF33128E2ED13140936E4C82BFFA0F89DB0B3F417F890F6C609",
+      "originalPath": "out\\iching-life-review\\contact-2.jpg"
+    },
+    {
+      "name": "contact-3.jpg",
+      "bytes": 132573,
+      "sha256": "24B356B4DE510E8393D8BC9FDC1FED8E056BDFCE28D5D1E79BC19A225E6E375C",
+      "originalPath": "out\\iching-life-review\\contact-3.jpg"
+    },
+    {
+      "name": "extra-build-1.png",
+      "bytes": 2129872,
+      "sha256": "3E2A0D112A9D40E124E63D92E786786D1B1540062827B34A17D57616FC2CCCFA",
+      "originalPath": "out\\iching-life-review\\extra-build-1.png"
+    },
+    {
+      "name": "extra-build-2.png",
+      "bytes": 2124430,
+      "sha256": "B6A1FB9424990E581E3B57C5BB60D15117C4A4922FCAF312B79BE4036A1F19AD",
+      "originalPath": "out\\iching-life-review\\extra-build-2.png"
+    },
+    {
+      "name": "extra-ending-4.png",
+      "bytes": 2171710,
+      "sha256": "223D0DC777D760DEEABC666EDF8FA3BB7AE5BA4734B53B5D4DF6622C2BE64488",
+      "originalPath": "out\\iching-life-review\\extra-ending-4.png"
+    },
+    {
+      "name": "extra-ending-5.png",
+      "bytes": 2198090,
+      "sha256": "2A55BE342B5483288066446EA4215FCFDB86C68CF3208E724A210ED978F6AE72",
+      "originalPath": "out\\iching-life-review\\extra-ending-5.png"
+    },
+    {
+      "name": "frames.json",
+      "bytes": 2372,
+      "sha256": "98E90C04717896EB35CA81B6A3770CFDFA4D2AD228D05C6DFBD13A62F2361352",
+      "originalPath": "out\\iching-life-review\\frames.json"
+    },
+    {
+      "name": "life-frames.json",
+      "bytes": 241,
+      "sha256": "BBCDD754272694A974578E51554FC2BCE0629BF7584B6770790785368BB61563",
+      "originalPath": "out\\iching-life-review\\life-frames.json"
+    }
+  ]
+}

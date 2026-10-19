@@ -1,0 +1,1117 @@
+{
+  "migratedAt": "2026-10-19",
+  "batch": "screenshots/legacy-2026-10-19",
+  "status": "Imported historical files; not revalidated against current animation",
+  "files": [
+    {
+      "name": "01-hook-1.png",
+      "bytes": 2423721,
+      "sha256": "205C81917030ADB54E5567CD9A4D592F7ECDFFE37B6180494A600E04C0ED96FC",
+      "originalPath": "out\\chi-ma-review\\01-hook-1.png"
+    },
+    {
+      "name": "01-hook-2.png",
+      "bytes": 2480454,
+      "sha256": "594B90CFF13336E0459603C947217731DC74139B7AD41B87C4692892661A827E",
+      "originalPath": "out\\chi-ma-review\\01-hook-2.png"
+    },
+    {
+      "name": "01-hook-3.png",
+      "bytes": 2479666,
+      "sha256": "59E6B26446ACABC62B93719CD9CA9009AAED3F1A3103D18D2288F1E2D732C86A",
+      "originalPath": "out\\chi-ma-review\\01-hook-3.png"
+    },
+    {
+      "name": "02-bingwu-1.png",
+      "bytes": 2490241,
+      "sha256": "37A674E4356ED4148E2C35BF48900554DCAC8CA99B7B2943B0D12CDECB0211EF",
+      "originalPath": "out\\chi-ma-review\\02-bingwu-1.png"
+    },
+    {
+      "name": "02-bingwu-2.png",
+      "bytes": 2484026,
+      "sha256": "907FC5908AA2B0148E2956A69C50FD07C2483B959F0ED8948E021C4D51C11F60",
+      "originalPath": "out\\chi-ma-review\\02-bingwu-2.png"
+    },
+    {
+      "name": "02-bingwu-3.png",
+      "bytes": 2486891,
+      "sha256": "97A9000EBAD2DB5FF22EFA6FAD96F2EA968D234BD9F43B080A2AF0D42B9409A0",
+      "originalPath": "out\\chi-ma-review\\02-bingwu-3.png"
+    },
+    {
+      "name": "03-sixty-1.png",
+      "bytes": 2553927,
+      "sha256": "E2D1621C0883F06639D1C4C72F1EDD6400BB2D72F324EA117A39860336B574D1",
+      "originalPath": "out\\chi-ma-review\\03-sixty-1.png"
+    },
+    {
+      "name": "03-sixty-2.png",
+      "bytes": 2553341,
+      "sha256": "857EB02149F1595336F5B8EEF6DEFAA0B2F0619D21DE16EC3C2A4C5F7EC05F53",
+      "originalPath": "out\\chi-ma-review\\03-sixty-2.png"
+    },
+    {
+      "name": "03-sixty-3.png",
+      "bytes": 2543251,
+      "sha256": "47D84F8313398466E2219F409FB711F3FAE699D5AF29C4E2E4CDC4E547691FB0",
+      "originalPath": "out\\chi-ma-review\\03-sixty-3.png"
+    },
+    {
+      "name": "04-cycle-1.png",
+      "bytes": 2536958,
+      "sha256": "1B74CA5A1EFB9F9400DB11A679198F9937BC16A12DF6FA219C999DCB62D85270",
+      "originalPath": "out\\chi-ma-review\\04-cycle-1.png"
+    },
+    {
+      "name": "04-cycle-2.png",
+      "bytes": 2529222,
+      "sha256": "922D0678530FD61BE6C9A6C0489606E3A39D6E2EED285BC7FDEE54BC8A2710E0",
+      "originalPath": "out\\chi-ma-review\\04-cycle-2.png"
+    },
+    {
+      "name": "04-cycle-3.png",
+      "bytes": 2535603,
+      "sha256": "6844ABC0E5E3EFB0361FA3F586B02D70B70BB45A0DCF3D7ED3DC91239C3A9D06",
+      "originalPath": "out\\chi-ma-review\\04-cycle-3.png"
+    },
+    {
+      "name": "05-chima-1.png",
+      "bytes": 2511075,
+      "sha256": "C3334DA14C75D9244D7132B803069F6731B51C5666B845D5FCF18613C9864660",
+      "originalPath": "out\\chi-ma-review\\05-chima-1.png"
+    },
+    {
+      "name": "05-chima-2.png",
+      "bytes": 2535983,
+      "sha256": "6424787921144B07C0C5F193FC0ECEBD728A409D48BD27D7CB64E418F93B1422",
+      "originalPath": "out\\chi-ma-review\\05-chima-2.png"
+    },
+    {
+      "name": "05-chima-3.png",
+      "bytes": 2555298,
+      "sha256": "A7FA1F7DD5EE54BE2AFDDDABC0257BF2E58B1F6FF0490D8D26C0760C833076BF",
+      "originalPath": "out\\chi-ma-review\\05-chima-3.png"
+    },
+    {
+      "name": "06-chongyang-1.png",
+      "bytes": 2520015,
+      "sha256": "EE2642ED0887D9696E6E45E9C77F10C8B0EAF17C0169B6FA2D191C81B23D0F8D",
+      "originalPath": "out\\chi-ma-review\\06-chongyang-1.png"
+    },
+    {
+      "name": "06-chongyang-2.png",
+      "bytes": 2530071,
+      "sha256": "74E8230223EB835C2C4FA589A8A657FF56837B2F32D5303E38AAACD041C3E6AA",
+      "originalPath": "out\\chi-ma-review\\06-chongyang-2.png"
+    },
+    {
+      "name": "06-chongyang-3.png",
+      "bytes": 2563819,
+      "sha256": "8BB85689D2305A68BF4B693F53EBB310C47392B3D5AEA23EC5ED84B0ADE09B8D",
+      "originalPath": "out\\chi-ma-review\\06-chongyang-3.png"
+    },
+    {
+      "name": "07-ending-1.png",
+      "bytes": 2394302,
+      "sha256": "6B828EB33C8BEA57FC5B154B5C01384A3A5475A93373F084FE34AC7723158A1F",
+      "originalPath": "out\\chi-ma-review\\07-ending-1.png"
+    },
+    {
+      "name": "07-ending-2.png",
+      "bytes": 2392526,
+      "sha256": "7ADE8B0146B0370AF4F1070D415C3E652976CA04E2B3AB4328B6AD4AD1BCDC2E",
+      "originalPath": "out\\chi-ma-review\\07-ending-2.png"
+    },
+    {
+      "name": "07-ending-3.png",
+      "bytes": 2422133,
+      "sha256": "890FFD44F9A0AD48861C55E1A04D168220BBF387E2A5BFAA7379E07BFE8E2E63",
+      "originalPath": "out\\chi-ma-review\\07-ending-3.png"
+    },
+    {
+      "name": "07-ending-early.png",
+      "bytes": 2424572,
+      "sha256": "FE17AA23666D54F26782264C85DA57583722EEE211A7D6D7C804613B4B3A916C",
+      "originalPath": "out\\chi-ma-review\\07-ending-early.png"
+    },
+    {
+      "name": "c-0.5.png",
+      "bytes": 318843,
+      "sha256": "EF7A96B107206E041B825409D18384C4C74A2AD79F7B817C1E785174451245E2",
+      "originalPath": "out\\chi-ma-review\\c-0.5.png"
+    },
+    {
+      "name": "c-14.png",
+      "bytes": 365278,
+      "sha256": "4C2EBD1208133ABE51B315494889A03A72D2BD98BEB5345C838479BA6BB42441",
+      "originalPath": "out\\chi-ma-review\\c-14.png"
+    },
+    {
+      "name": "c-2.png",
+      "bytes": 362742,
+      "sha256": "9F15ACD11C934FF1536185572E653ED597F0433E4DCBF499921A0984F5D2ED82",
+      "originalPath": "out\\chi-ma-review\\c-2.png"
+    },
+    {
+      "name": "c-3.8.png",
+      "bytes": 337520,
+      "sha256": "D6746059C4EF02B0ED7A97023D7C9C281377E950C563B74E933A29E9ECDF3DC1",
+      "originalPath": "out\\chi-ma-review\\c-3.8.png"
+    },
+    {
+      "name": "c-6.2.png",
+      "bytes": 352387,
+      "sha256": "C50646A69CB83FA85AA64DF065A4838B97004B7607B1960C3ECCBF0E770EF076",
+      "originalPath": "out\\chi-ma-review\\c-6.2.png"
+    },
+    {
+      "name": "c-9.png",
+      "bytes": 346646,
+      "sha256": "380E52621C8B35F88130BF7528DEE8E96A5655AF584A2D2BF074D137966C9542",
+      "originalPath": "out\\chi-ma-review\\c-9.png"
+    },
+    {
+      "name": "c2-1.png",
+      "bytes": 351790,
+      "sha256": "79C3F6D95B3201AF2147C1B1A3B0CC1BF24B6BBC1B3DA46BABF4393520CD4BAB",
+      "originalPath": "out\\chi-ma-review\\c2-1.png"
+    },
+    {
+      "name": "c2-14.5.png",
+      "bytes": 395189,
+      "sha256": "11DC2C5396F886B60941637F0BC9B7DB30F87BD9AB4C58F052B58E908A85CDE2",
+      "originalPath": "out\\chi-ma-review\\c2-14.5.png"
+    },
+    {
+      "name": "c2-3.8.png",
+      "bytes": 354004,
+      "sha256": "009A6D87DF8868FDBD66C51EA40BA72FB90F60224427DF52721BBE813D2445E6",
+      "originalPath": "out\\chi-ma-review\\c2-3.8.png"
+    },
+    {
+      "name": "c2-6.5.png",
+      "bytes": 370890,
+      "sha256": "85920F882C504D373EC76BC9B57B929D62B5F30A0CFADAF8B3E30D5FCAE04C77",
+      "originalPath": "out\\chi-ma-review\\c2-6.5.png"
+    },
+    {
+      "name": "c2-9.5.png",
+      "bytes": 363400,
+      "sha256": "7C9105BF0927FF0FACCF63741BFCBA60ADBF0C1046BC2559F7E41E602DABEDC0",
+      "originalPath": "out\\chi-ma-review\\c2-9.5.png"
+    },
+    {
+      "name": "e-0.5.png",
+      "bytes": 223286,
+      "sha256": "6C4C2FDC5CAB563B7D977640D5A90E333133C66E4C73930BCED37BA735941E5F",
+      "originalPath": "out\\chi-ma-review\\e-0.5.png"
+    },
+    {
+      "name": "e-10.png",
+      "bytes": 291453,
+      "sha256": "2606FA2B3512AA5BED13DB1EB657E17175FF5545D22FF84B43C243CE42BDF76C",
+      "originalPath": "out\\chi-ma-review\\e-10.png"
+    },
+    {
+      "name": "e-11.5.png",
+      "bytes": 240021,
+      "sha256": "2F0949EC3AE8B6B43D31339DFE3307FBFA8B3975800B0DAF7B06E4C7674CC24D",
+      "originalPath": "out\\chi-ma-review\\e-11.5.png"
+    },
+    {
+      "name": "e-3.png",
+      "bytes": 234705,
+      "sha256": "CD8ADE2A053AEC815E5B849C303CE45B00330C5CF4F238E0F3191264EC60C390",
+      "originalPath": "out\\chi-ma-review\\e-3.png"
+    },
+    {
+      "name": "e-5.5.png",
+      "bytes": 215547,
+      "sha256": "D3239CBBE6322A9B09266235DC730A1B4BB0A291C70F086AEF4F2438BCC0DD2C",
+      "originalPath": "out\\chi-ma-review\\e-5.5.png"
+    },
+    {
+      "name": "e-6.png",
+      "bytes": 201270,
+      "sha256": "7FCC2750F2197697EC2934486A6B4F75BDE3EF7161AE00C3BA9B0F72CEED1FA5",
+      "originalPath": "out\\chi-ma-review\\e-6.png"
+    },
+    {
+      "name": "e-8.5.png",
+      "bytes": 197362,
+      "sha256": "FA37080B172096FEE678D2030145400C636839170845ACB8B0F6DFE99823D05E",
+      "originalPath": "out\\chi-ma-review\\e-8.5.png"
+    },
+    {
+      "name": "e-line.png",
+      "bytes": 123956,
+      "sha256": "670DA074AF9A4419D3FEAC54B311AA5544FA4649A49E71253F44D86572C541DB",
+      "originalPath": "out\\chi-ma-review\\e-line.png"
+    },
+    {
+      "name": "e2-11.5.png",
+      "bytes": 230793,
+      "sha256": "F0D47D0C46B48DBB19C2FF00B5C709A50BDB64FCAB54BF7DDEB88CB171F8C9CB",
+      "originalPath": "out\\chi-ma-review\\e2-11.5.png"
+    },
+    {
+      "name": "e2-3.png",
+      "bytes": 209650,
+      "sha256": "A4E3B2AB1CBE4066ACA412711F57DA52D6C5477A154A9EF853ED27CA2A1B29F4",
+      "originalPath": "out\\chi-ma-review\\e2-3.png"
+    },
+    {
+      "name": "e2-5.5.png",
+      "bytes": 217920,
+      "sha256": "2F8BB1DABAD287D3EE3FA0AAA3C98403AAE5C55A3C1DD29DCCA5DD28CBE458BB",
+      "originalPath": "out\\chi-ma-review\\e2-5.5.png"
+    },
+    {
+      "name": "e2-5.9.png",
+      "bytes": 201735,
+      "sha256": "49E936EDF42D37DAEF8DE2714E8DF4FA2CC98FA676919EBDC603863BD7645F08",
+      "originalPath": "out\\chi-ma-review\\e2-5.9.png"
+    },
+    {
+      "name": "e2-6.3.png",
+      "bytes": 174838,
+      "sha256": "A0E69744D8A43AF7AB1E5CB0867E75BE0A56258EDFBE4DE17F6B3115D434FD33",
+      "originalPath": "out\\chi-ma-review\\e2-6.3.png"
+    },
+    {
+      "name": "e2-8.5.png",
+      "bytes": 192641,
+      "sha256": "C8F55DC4F511012A47AB5AF50EE233D91AC7AC980990F1ACB632D132FE51EDF1",
+      "originalPath": "out\\chi-ma-review\\e2-8.5.png"
+    },
+    {
+      "name": "e3-11.5.png",
+      "bytes": 231638,
+      "sha256": "AF4EC52E061AECDCA753769507E775EC1D243359A8563AFC8C343598AFACE9E4",
+      "originalPath": "out\\chi-ma-review\\e3-11.5.png"
+    },
+    {
+      "name": "e3-3.png",
+      "bytes": 225405,
+      "sha256": "C8A95E233F82547B496EB0E8764F822740D4DED870DD9EBF03B1737006DDD702",
+      "originalPath": "out\\chi-ma-review\\e3-3.png"
+    },
+    {
+      "name": "e3-5.9.png",
+      "bytes": 218515,
+      "sha256": "A7EDDF91A67F10C9148927259638FE95035423445DC48F1882A9A047DB0E3395",
+      "originalPath": "out\\chi-ma-review\\e3-5.9.png"
+    },
+    {
+      "name": "e3-6.3.png",
+      "bytes": 176004,
+      "sha256": "C1724F62D91323D7B2A45B9B87E309AF7D5600A1B0EA8F520C49E85412161011",
+      "originalPath": "out\\chi-ma-review\\e3-6.3.png"
+    },
+    {
+      "name": "e3-8.5.png",
+      "bytes": 191992,
+      "sha256": "BB618DA373055411745C817096ED66097112DB8138AEB3B03FBFAF080B1EE78F",
+      "originalPath": "out\\chi-ma-review\\e3-8.5.png"
+    },
+    {
+      "name": "e4-11.5.png",
+      "bytes": 230793,
+      "sha256": "F0D47D0C46B48DBB19C2FF00B5C709A50BDB64FCAB54BF7DDEB88CB171F8C9CB",
+      "originalPath": "out\\chi-ma-review\\e4-11.5.png"
+    },
+    {
+      "name": "e4-3.png",
+      "bytes": 212530,
+      "sha256": "33EE534A221DC15178283C2EA10F47634D85D3B4F4E871AA5D2C7401B8AF41E1",
+      "originalPath": "out\\chi-ma-review\\e4-3.png"
+    },
+    {
+      "name": "e4-5.9.png",
+      "bytes": 216995,
+      "sha256": "4DB65E39B6FFAE1306622EA9293336183444C04A3AD72D03DED26CFBAC80F2BC",
+      "originalPath": "out\\chi-ma-review\\e4-5.9.png"
+    },
+    {
+      "name": "e4-6.4.png",
+      "bytes": 144624,
+      "sha256": "779A20E30CAF1C1EA1BC9DDD21BD989120C1B7160BC78E3FD4381489A6882716",
+      "originalPath": "out\\chi-ma-review\\e4-6.4.png"
+    },
+    {
+      "name": "e4-6.9.png",
+      "bytes": 173231,
+      "sha256": "69463A1A7EA094CCDFAC5837165648322A14C6E88E19121A348006036DE1641C",
+      "originalPath": "out\\chi-ma-review\\e4-6.9.png"
+    },
+    {
+      "name": "e4-8.5.png",
+      "bytes": 192641,
+      "sha256": "C8F55DC4F511012A47AB5AF50EE233D91AC7AC980990F1ACB632D132FE51EDF1",
+      "originalPath": "out\\chi-ma-review\\e4-8.5.png"
+    },
+    {
+      "name": "e5-1.png",
+      "bytes": 321166,
+      "sha256": "C1C1B678DE912924B7649A5C02A9A7C831F23A65997569FDFA8BE092DB5BCF5B",
+      "originalPath": "out\\chi-ma-review\\e5-1.png"
+    },
+    {
+      "name": "e5-10.png",
+      "bytes": 308957,
+      "sha256": "5E4A3CDB4651312E6A58966DE0BB477A15FF17904BCA9A16465CE1EBBD1C6E15",
+      "originalPath": "out\\chi-ma-review\\e5-10.png"
+    },
+    {
+      "name": "e5-3.png",
+      "bytes": 329453,
+      "sha256": "AE05AE0ABA9D1605E1980F4AABC02E88A2C2F41D66B3F2BC1111D5424D678DE7",
+      "originalPath": "out\\chi-ma-review\\e5-3.png"
+    },
+    {
+      "name": "e5-6.png",
+      "bytes": 335662,
+      "sha256": "F0984BEF61D9B5BB6555F14788A3857D18ACFEBA92ED70AE5EF7FC4C012D2516",
+      "originalPath": "out\\chi-ma-review\\e5-6.png"
+    },
+    {
+      "name": "e5-8.png",
+      "bytes": 372939,
+      "sha256": "F04F999AF4E42F47FB775973D568277A6BE3443A396B5435C0BB8FF670F53EC1",
+      "originalPath": "out\\chi-ma-review\\e5-8.png"
+    },
+    {
+      "name": "e6-6.png",
+      "bytes": 324533,
+      "sha256": "7506DBBA281729DB9780BAE3B6921E6CE66DA452EEAF5E74720AAA5364B361F6",
+      "originalPath": "out\\chi-ma-review\\e6-6.png"
+    },
+    {
+      "name": "e6-8.png",
+      "bytes": 360843,
+      "sha256": "E5DDACDFD36B6BD9F8E7932D641643D96BE6D945C56A93BE5D34CC60DF1381C5",
+      "originalPath": "out\\chi-ma-review\\e6-8.png"
+    },
+    {
+      "name": "e7-10.png",
+      "bytes": 328651,
+      "sha256": "0EACDC87D0EF5D8D143EBE7F3B820E2953B7754F53F7B5CC75D728D228D1A820",
+      "originalPath": "out\\chi-ma-review\\e7-10.png"
+    },
+    {
+      "name": "e7-11.8.png",
+      "bytes": 278609,
+      "sha256": "DBF204099CF104EADC9BB64ED33A991C14433A1867F00A8C37B2CF75B6E8E57D",
+      "originalPath": "out\\chi-ma-review\\e7-11.8.png"
+    },
+    {
+      "name": "e7-8.5.png",
+      "bytes": 316583,
+      "sha256": "BD7B7AEB0A84F8C7B6F3DB4301E51D37FAAC2581C60327E681FA9C02C4BFE0AA",
+      "originalPath": "out\\chi-ma-review\\e7-8.5.png"
+    },
+    {
+      "name": "frames.json",
+      "bytes": 1766,
+      "sha256": "8A40BC6EAA19C84B3105C52C67955D4426903ADF7538A3F133AEBFDC47BB8C42",
+      "originalPath": "out\\chi-ma-review\\frames.json"
+    },
+    {
+      "name": "h2-1.png",
+      "bytes": 287620,
+      "sha256": "4E74BEA7149AF0FC6D3CAE563A17C24CB94518179430BDFED962C0BB8E368692",
+      "originalPath": "out\\chi-ma-review\\h2-1.png"
+    },
+    {
+      "name": "h2-3.png",
+      "bytes": 402305,
+      "sha256": "91F04D29EC7A2A9DDC3B6627F8FC722A96F3A35995968760BF100B9FCB7591CC",
+      "originalPath": "out\\chi-ma-review\\h2-3.png"
+    },
+    {
+      "name": "h2-5.png",
+      "bytes": 403025,
+      "sha256": "13A16324FEB4EE9C1949973AD784D29F4043C132BEE9F10A45B223CDE0ABD673",
+      "originalPath": "out\\chi-ma-review\\h2-5.png"
+    },
+    {
+      "name": "h2-7.png",
+      "bytes": 270678,
+      "sha256": "C925D433E8ED9FDC54167CDDA3B82DADD3AF766CA1F996DCA3B958162164D116",
+      "originalPath": "out\\chi-ma-review\\h2-7.png"
+    },
+    {
+      "name": "h3-2.png",
+      "bytes": 501606,
+      "sha256": "B6E517366B2BDD592508B07D372E51F6F9D64803FE60FD0C3425C96ABCC5C476",
+      "originalPath": "out\\chi-ma-review\\h3-2.png"
+    },
+    {
+      "name": "h3-3.5.png",
+      "bytes": 508664,
+      "sha256": "781F6A7E87B489656F27567461C5F0457DA3134E5EBA55C0B485B9A76CADD6AF",
+      "originalPath": "out\\chi-ma-review\\h3-3.5.png"
+    },
+    {
+      "name": "h3-5.5.png",
+      "bytes": 331245,
+      "sha256": "7D5C3912884CC2CA32EC0F1FF4136C61FBBD12953523B6E1B907FD1777A98512",
+      "originalPath": "out\\chi-ma-review\\h3-5.5.png"
+    },
+    {
+      "name": "h4-2.png",
+      "bytes": 507897,
+      "sha256": "F8EE133E1DB22B76F8C7B0FC73C17D4D154926E992C2E958A0D572F95933390C",
+      "originalPath": "out\\chi-ma-review\\h4-2.png"
+    },
+    {
+      "name": "h4-4.png",
+      "bytes": 516173,
+      "sha256": "7018CB0D3CBB8F58E2850BDE21E964D38A4AA2A3152747F34A8221BB03750D89",
+      "originalPath": "out\\chi-ma-review\\h4-4.png"
+    },
+    {
+      "name": "m-0.2.png",
+      "bytes": 222877,
+      "sha256": "08554DCA4FD9BE95870A9A1481B1770DDE64F6F9ADF70BF65A6EFC7B2AD94627",
+      "originalPath": "out\\chi-ma-review\\m-0.2.png"
+    },
+    {
+      "name": "m-1.2.png",
+      "bytes": 365154,
+      "sha256": "DD9F53972D03BA32C927EC98C055F28FBEC269760E4AC44D7A9E4FBA22E507F8",
+      "originalPath": "out\\chi-ma-review\\m-1.2.png"
+    },
+    {
+      "name": "m-13.png",
+      "bytes": 439628,
+      "sha256": "2398851738DC8D3DBC70A58F11C6D811D0C7E85F4F48F77E8C8FEDEE8BFCEBCC",
+      "originalPath": "out\\chi-ma-review\\m-13.png"
+    },
+    {
+      "name": "m-19.png",
+      "bytes": 432636,
+      "sha256": "78636D3B081198444ED9A26374933F75AE10B9DBEACDAA062BEAD4BBC4374F45",
+      "originalPath": "out\\chi-ma-review\\m-19.png"
+    },
+    {
+      "name": "m-2.5.png",
+      "bytes": 302543,
+      "sha256": "521F98F844511510913D03CD1A509F42939DC549B17C9FEA49BC73CA9F1CAB0A",
+      "originalPath": "out\\chi-ma-review\\m-2.5.png"
+    },
+    {
+      "name": "m-5.png",
+      "bytes": 223891,
+      "sha256": "AAC0162E8010AB41DD4381AC59DAC757D20D7E1FF450109ABE0F686AD2FBBC0C",
+      "originalPath": "out\\chi-ma-review\\m-5.png"
+    },
+    {
+      "name": "m-8.png",
+      "bytes": 358996,
+      "sha256": "20458416F0DD9B4FFD61406F58AD0C7D042D9B43980496B96FE51B4022EE7BF9",
+      "originalPath": "out\\chi-ma-review\\m-8.png"
+    },
+    {
+      "name": "m2-0.5.png",
+      "bytes": 325182,
+      "sha256": "8D642580651E979FEB0EA44D993B9E6E0027BC311BF65B7139A1EB83F2254FB0",
+      "originalPath": "out\\chi-ma-review\\m2-0.5.png"
+    },
+    {
+      "name": "m2-1.2.png",
+      "bytes": 373880,
+      "sha256": "155E2808535B3C82A35815C3798AB3F2DD13630E77A8538DFB475CD9C731AAE4",
+      "originalPath": "out\\chi-ma-review\\m2-1.2.png"
+    },
+    {
+      "name": "m2-13.png",
+      "bytes": 439628,
+      "sha256": "2398851738DC8D3DBC70A58F11C6D811D0C7E85F4F48F77E8C8FEDEE8BFCEBCC",
+      "originalPath": "out\\chi-ma-review\\m2-13.png"
+    },
+    {
+      "name": "m2-19.png",
+      "bytes": 432636,
+      "sha256": "78636D3B081198444ED9A26374933F75AE10B9DBEACDAA062BEAD4BBC4374F45",
+      "originalPath": "out\\chi-ma-review\\m2-19.png"
+    },
+    {
+      "name": "m2-2.5.png",
+      "bytes": 264812,
+      "sha256": "65D235C414D5AEAF81F924154C9B5D09731994056FE92F0A0835EB3DA552728C",
+      "originalPath": "out\\chi-ma-review\\m2-2.5.png"
+    },
+    {
+      "name": "m2-6.png",
+      "bytes": 328614,
+      "sha256": "E5F2012A0038F851A64FA78C6B5B14BC45FA5530983670517ACAD02873B3C21D",
+      "originalPath": "out\\chi-ma-review\\m2-6.png"
+    },
+    {
+      "name": "m2-8.png",
+      "bytes": 358183,
+      "sha256": "420938F54D40145961DC59F3AF395846186F1A5502B73012BBADBC4E8AED3158",
+      "originalPath": "out\\chi-ma-review\\m2-8.png"
+    },
+    {
+      "name": "m3-1.png",
+      "bytes": 333273,
+      "sha256": "EC6E0D193D16D9471DC74E9F7449ADA5EDD9018A8AA265553CF83D001628766D",
+      "originalPath": "out\\chi-ma-review\\m3-1.png"
+    },
+    {
+      "name": "m3-13.png",
+      "bytes": 457479,
+      "sha256": "E9BA7B4CDF4DEBFF71FE0CF920F6B6B3ADDD3EF63BABCA02C46EE716BE2C064F",
+      "originalPath": "out\\chi-ma-review\\m3-13.png"
+    },
+    {
+      "name": "m3-2.5.png",
+      "bytes": 336319,
+      "sha256": "8FEAA97A8753EDC1C2A812BE093ADFFB9A16E1678413A7ACD485D0E4A22020A7",
+      "originalPath": "out\\chi-ma-review\\m3-2.5.png"
+    },
+    {
+      "name": "m3-4.png",
+      "bytes": 282396,
+      "sha256": "7017454F4FEC96756C8875CF48797C8389B149157CBB6DDD4CA95366DB30BC0F",
+      "originalPath": "out\\chi-ma-review\\m3-4.png"
+    },
+    {
+      "name": "m3-8.png",
+      "bytes": 379434,
+      "sha256": "0B0C39BA1ED8655653B9ADAF0F146B72FF9878BF9D4D78095480B1E2702BD853",
+      "originalPath": "out\\chi-ma-review\\m3-8.png"
+    },
+    {
+      "name": "m4-1.5.png",
+      "bytes": 332354,
+      "sha256": "E89DF326FC0A09109120FDFD080384939E30B752F8B6869C5B54FBB7B54E3E75",
+      "originalPath": "out\\chi-ma-review\\m4-1.5.png"
+    },
+    {
+      "name": "m4-2.5.png",
+      "bytes": 338040,
+      "sha256": "938F8A5E54C76AF716B2067F29135C3276242E155F4A352EF330C136576ECA8D",
+      "originalPath": "out\\chi-ma-review\\m4-2.5.png"
+    },
+    {
+      "name": "m4-3.5.png",
+      "bytes": 321226,
+      "sha256": "A14C35D2B8F8AAACD507F6127B4A15EFA38D4BE48AD6DA9E4B01730EF16F8987",
+      "originalPath": "out\\chi-ma-review\\m4-3.5.png"
+    },
+    {
+      "name": "m4-8.png",
+      "bytes": 379438,
+      "sha256": "28E90CC4215807FB2465EB0BA14D90596CE7A89D9A9BD552AA3FCA5C10ECEC2D",
+      "originalPath": "out\\chi-ma-review\\m4-8.png"
+    },
+    {
+      "name": "m5-10.png",
+      "bytes": 425999,
+      "sha256": "17A7B8333EA5A6B615FC57084B701DB3765019985DC511ACC9B49EB7C234888D",
+      "originalPath": "out\\chi-ma-review\\m5-10.png"
+    },
+    {
+      "name": "m5-12.png",
+      "bytes": 546490,
+      "sha256": "FDBD573F5F9529AF1CCC86A5261E68BC921455465B66B76DB885BD372AE0D86D",
+      "originalPath": "out\\chi-ma-review\\m5-12.png"
+    },
+    {
+      "name": "m5-16.png",
+      "bytes": 579249,
+      "sha256": "9E8EC08AD9FB7F7EEAA39D04D3B96A2E5F7A71EC741E087316A390E599806F2A",
+      "originalPath": "out\\chi-ma-review\\m5-16.png"
+    },
+    {
+      "name": "m5-20.png",
+      "bytes": 342483,
+      "sha256": "BFD92DDBC3B5A0C24181A757C2DDBD34EC0DAD863880BF1151629E1FD425C764",
+      "originalPath": "out\\chi-ma-review\\m5-20.png"
+    },
+    {
+      "name": "m5-8.png",
+      "bytes": 403444,
+      "sha256": "8870EDBFB1B928B290E4D94ACE3379EDEC29EFC46270962F31F402F20DA7B2E4",
+      "originalPath": "out\\chi-ma-review\\m5-8.png"
+    },
+    {
+      "name": "m6-12.png",
+      "bytes": 522615,
+      "sha256": "D7BDF517297F3BDCC952F190EBD0E7079FF344DB854553E22E98D843D20228CD",
+      "originalPath": "out\\chi-ma-review\\m6-12.png"
+    },
+    {
+      "name": "m6-20.png",
+      "bytes": 335443,
+      "sha256": "325EE319564C1C6F31A2F6A1CE19096AAEBB8503A42FBE1D56AE663CFE3D4BA1",
+      "originalPath": "out\\chi-ma-review\\m6-20.png"
+    },
+    {
+      "name": "m6-8.png",
+      "bytes": 379897,
+      "sha256": "ECD5779A48AFB436AB8CF4D2F6240E2AC0A7A1E600EBCE5C88FB2847E54A7270",
+      "originalPath": "out\\chi-ma-review\\m6-8.png"
+    },
+    {
+      "name": "mp4-03s.png",
+      "bytes": 305060,
+      "sha256": "37551974D153791C0E682FE21065F85A9793E0C5CF0C3A2C160C1928D8A7D4DD",
+      "originalPath": "out\\chi-ma-review\\mp4-03s.png"
+    },
+    {
+      "name": "mp4-60s.png",
+      "bytes": 349221,
+      "sha256": "1C069597A190F0B4DA55CD6D1EA584787E5BB9F8F83CE0281E325C645E6DFFD3",
+      "originalPath": "out\\chi-ma-review\\mp4-60s.png"
+    },
+    {
+      "name": "mp4-96s.png",
+      "bytes": 253187,
+      "sha256": "AD2BB00BD7DF17C00195BAABBE4D368094910340E0D7FA8C44F27FF4D483AF4E",
+      "originalPath": "out\\chi-ma-review\\mp4-96s.png"
+    },
+    {
+      "name": "s-0.7.png",
+      "bytes": 259013,
+      "sha256": "8E1FC27222AC0716AD964EA398F56D02A2C418A4E6BC4A4D1CE3F2EC8DE73BE9",
+      "originalPath": "out\\chi-ma-review\\s-0.7.png"
+    },
+    {
+      "name": "s-10.8.png",
+      "bytes": 296599,
+      "sha256": "0DBBB3025018BE7E9696EA9ED93C8F0E79E013B2F13D71283752B9E0FEBEE8FA",
+      "originalPath": "out\\chi-ma-review\\s-10.8.png"
+    },
+    {
+      "name": "s-13.png",
+      "bytes": 322349,
+      "sha256": "6D67AFD21C0BDCDDED68989BE952591028F67892C39FD6C048486AEB4EE0C37D",
+      "originalPath": "out\\chi-ma-review\\s-13.png"
+    },
+    {
+      "name": "s-3.png",
+      "bytes": 289740,
+      "sha256": "0FA69B104160EACA03833EA3D4CDA288351572D4C075B8CEDF1EE81697F218FE",
+      "originalPath": "out\\chi-ma-review\\s-3.png"
+    },
+    {
+      "name": "s-6.5.png",
+      "bytes": 303692,
+      "sha256": "584D27FA873E57AFF4E8A9150D6065FD43931C7D5EFB18B757E8EBD037799105",
+      "originalPath": "out\\chi-ma-review\\s-6.5.png"
+    },
+    {
+      "name": "s-8.2.png",
+      "bytes": 323813,
+      "sha256": "F82D5BA72BB7C6A6BE2035E0D569C4947136C6964F2C32071CEA6B7297E245D8",
+      "originalPath": "out\\chi-ma-review\\s-8.2.png"
+    },
+    {
+      "name": "s10-3.png",
+      "bytes": 335612,
+      "sha256": "1BF022F40EB23DA47A62D06C378BA442D3396B0A2A994CA71334BC9E7806F32E",
+      "originalPath": "out\\chi-ma-review\\s10-3.png"
+    },
+    {
+      "name": "s10-5.png",
+      "bytes": 481956,
+      "sha256": "5AAC5CAD5E9E9711F46F19F3E96BB4AE39A2CE8B56FF8F462AEFDEE9563A2D04",
+      "originalPath": "out\\chi-ma-review\\s10-5.png"
+    },
+    {
+      "name": "s10-7.png",
+      "bytes": 544649,
+      "sha256": "D4B372112C7D0802D66A2FD17463190EE708B7A7BC9080498EB190F9159D2AF3",
+      "originalPath": "out\\chi-ma-review\\s10-7.png"
+    },
+    {
+      "name": "s10-8.5.png",
+      "bytes": 493133,
+      "sha256": "C9DFCD12A07394263B62E5D8B9D13C3FE4E73C6559BF48CD1D5982B28E0A4F9E",
+      "originalPath": "out\\chi-ma-review\\s10-8.5.png"
+    },
+    {
+      "name": "s11-4.png",
+      "bytes": 402647,
+      "sha256": "28F9EFF3248D6470CF8BA24DD5661AE553EBE76F8803E85DEBE444546015669A",
+      "originalPath": "out\\chi-ma-review\\s11-4.png"
+    },
+    {
+      "name": "s11-6.png",
+      "bytes": 530838,
+      "sha256": "C97A21C7F5E75C46DEB0B87C48AD3B42293BC9B1566D795F635E995FBEC1E99B",
+      "originalPath": "out\\chi-ma-review\\s11-6.png"
+    },
+    {
+      "name": "s11-8.5.png",
+      "bytes": 493133,
+      "sha256": "C9DFCD12A07394263B62E5D8B9D13C3FE4E73C6559BF48CD1D5982B28E0A4F9E",
+      "originalPath": "out\\chi-ma-review\\s11-8.5.png"
+    },
+    {
+      "name": "s12-2.5.png",
+      "bytes": 476616,
+      "sha256": "4BC972763E48F8D8F4546C5C4F3977B96410012E0BB72C72FC0ECF4138A4FFB0",
+      "originalPath": "out\\chi-ma-review\\s12-2.5.png"
+    },
+    {
+      "name": "s12-3.5.png",
+      "bytes": 531075,
+      "sha256": "38D0718395D2ABE6698B8157ED353E8584CBB29E0BFBDFCB4167AD13B99D392D",
+      "originalPath": "out\\chi-ma-review\\s12-3.5.png"
+    },
+    {
+      "name": "s12-5.png",
+      "bytes": 550053,
+      "sha256": "2D02CDF17B2424D0480BBB34E0D4CB841D878289EA181D05238F60E8D2199199",
+      "originalPath": "out\\chi-ma-review\\s12-5.png"
+    },
+    {
+      "name": "s13-2.2.png",
+      "bytes": 401497,
+      "sha256": "6B90706BA8DEBD1B140E7B56AADDB38983F327A61C1FD2B8F98C086029D5FAF2",
+      "originalPath": "out\\chi-ma-review\\s13-2.2.png"
+    },
+    {
+      "name": "s13-3.png",
+      "bytes": 457293,
+      "sha256": "55856DD2ABF6F61F8AE77C9E2F569B187CF3A62FB415F76390EA3827C6DBD910",
+      "originalPath": "out\\chi-ma-review\\s13-3.png"
+    },
+    {
+      "name": "s13-4.png",
+      "bytes": 530707,
+      "sha256": "6D153CDF516D8D301A7083460E6FD407948A2ED0DA70806016E8527AE48F9BD6",
+      "originalPath": "out\\chi-ma-review\\s13-4.png"
+    },
+    {
+      "name": "s14-3.png",
+      "bytes": 490633,
+      "sha256": "6D182E8598A0AEC1736C06E6CECD1C51631E49F503E1799D654227FD700D1417",
+      "originalPath": "out\\chi-ma-review\\s14-3.png"
+    },
+    {
+      "name": "s14-4.png",
+      "bytes": 529739,
+      "sha256": "7B5DB28E3E18C88E93089EAA4CFBB629A82C57601801402597A71814C2812C84",
+      "originalPath": "out\\chi-ma-review\\s14-4.png"
+    },
+    {
+      "name": "s2-11.5.png",
+      "bytes": 307971,
+      "sha256": "18225AA248D08B07B9DA21B71476910C8437F81BA91CD58CFBC8855676A34DB7",
+      "originalPath": "out\\chi-ma-review\\s2-11.5.png"
+    },
+    {
+      "name": "s2-13.5.png",
+      "bytes": 284641,
+      "sha256": "709C43231C2973EBC26C5723952DE55C79FD447896CE735C801FB79819B3429E",
+      "originalPath": "out\\chi-ma-review\\s2-13.5.png"
+    },
+    {
+      "name": "s2-3.png",
+      "bytes": 364017,
+      "sha256": "326AFFD96E4CB9831E0EEF68CEB98D6EC3E8D846720BC842CA3E9580B1FFBAA4",
+      "originalPath": "out\\chi-ma-review\\s2-3.png"
+    },
+    {
+      "name": "s2-8.2.png",
+      "bytes": 349827,
+      "sha256": "EA301979675CEAA09803A1257CE335A160F5302B036807A6E70A5E2909E6A946",
+      "originalPath": "out\\chi-ma-review\\s2-8.2.png"
+    },
+    {
+      "name": "s3-10.2.png",
+      "bytes": 344100,
+      "sha256": "B56970088CF4216DE43344EC55645768D6E98E2D2FBC2DD2C10972DBEA7E438C",
+      "originalPath": "out\\chi-ma-review\\s3-10.2.png"
+    },
+    {
+      "name": "s3-8.2.png",
+      "bytes": 397677,
+      "sha256": "2E91ED8493B895E83A0623169688BB00CC7D295A2967BEB01E82465F4E433759",
+      "originalPath": "out\\chi-ma-review\\s3-8.2.png"
+    },
+    {
+      "name": "s4-10.6.png",
+      "bytes": 292531,
+      "sha256": "2E39E6BF15A99B48598E31E9EA9ECEE5A5A235EADF9CCD04839BEE849CCEF002",
+      "originalPath": "out\\chi-ma-review\\s4-10.6.png"
+    },
+    {
+      "name": "s4-8.2.png",
+      "bytes": 396769,
+      "sha256": "0B57B7CDD0931C92F234F898B954D9B8B288EBBA9115670D62A40F18766A88C4",
+      "originalPath": "out\\chi-ma-review\\s4-8.2.png"
+    },
+    {
+      "name": "s5-10.6.png",
+      "bytes": 292199,
+      "sha256": "7FABC44803AEA657C14E9321244507392F465F54085FEA31D08E0B114136D453",
+      "originalPath": "out\\chi-ma-review\\s5-10.6.png"
+    },
+    {
+      "name": "s5-8.2.png",
+      "bytes": 406534,
+      "sha256": "69B9773F07269FFDE6CFC43BD36489158F14A2824F6DE89A6F3C755BAF7B4352",
+      "originalPath": "out\\chi-ma-review\\s5-8.2.png"
+    },
+    {
+      "name": "s6-1.png",
+      "bytes": 303534,
+      "sha256": "742B845A2DD7BB75053AC4227351A0ECD92CABE0070150D92B66BE87A5CC9F64",
+      "originalPath": "out\\chi-ma-review\\s6-1.png"
+    },
+    {
+      "name": "s6-10.6.png",
+      "bytes": 343890,
+      "sha256": "378058B90D920C5C2EC41BA7BA0231DAEA388756EBFA9DB600611455287436B0",
+      "originalPath": "out\\chi-ma-review\\s6-10.6.png"
+    },
+    {
+      "name": "s6-13.png",
+      "bytes": 330581,
+      "sha256": "E9533C852DF79703D2A27A6C284F74A3862AF5013FD25B551E7197EACC9D47CB",
+      "originalPath": "out\\chi-ma-review\\s6-13.png"
+    },
+    {
+      "name": "s6-3.png",
+      "bytes": 477908,
+      "sha256": "97A9ABF325D64573DBB3AD727E436A44AAEEC1673789B87E13CC15E31C0717D9",
+      "originalPath": "out\\chi-ma-review\\s6-3.png"
+    },
+    {
+      "name": "s6-6.png",
+      "bytes": 494847,
+      "sha256": "98490EAABBB1603DA36C98DDA940C778BEC72883B5B07E19C1C5A9D8DD97947C",
+      "originalPath": "out\\chi-ma-review\\s6-6.png"
+    },
+    {
+      "name": "s6-8.2.png",
+      "bytes": 485174,
+      "sha256": "06F67F05FDEB6091D79355ADD91FE31BEB7D97E1F8B71D966EE7ADE949EF7DEF",
+      "originalPath": "out\\chi-ma-review\\s6-8.2.png"
+    },
+    {
+      "name": "s7-10.6.png",
+      "bytes": 346892,
+      "sha256": "79F959F9714A366391B2426CF910605726D65A3FEA75EB96FC6A50BD45D15655",
+      "originalPath": "out\\chi-ma-review\\s7-10.6.png"
+    },
+    {
+      "name": "s7-13.png",
+      "bytes": 325821,
+      "sha256": "3E56592E1AEB13753AA201878D31BC3633FF1770178EFA9A804619DE169AE3F1",
+      "originalPath": "out\\chi-ma-review\\s7-13.png"
+    },
+    {
+      "name": "s7-3.png",
+      "bytes": 467107,
+      "sha256": "7670F4C543E6D3C83C7CEB1BA04E0980AC209B58771D4AA2B7A5C725CD6D20CE",
+      "originalPath": "out\\chi-ma-review\\s7-3.png"
+    },
+    {
+      "name": "s7-6.png",
+      "bytes": 487744,
+      "sha256": "76319FAC4FCAF0AD41C0E356561B08E32C8B7A66186A859A5E5D9E6D8965C3CD",
+      "originalPath": "out\\chi-ma-review\\s7-6.png"
+    },
+    {
+      "name": "s7-8.2.png",
+      "bytes": 488740,
+      "sha256": "6E36690E2ADFD441CE5C0B352E0F4EA5C084D4343D4A2D11179C9658BD46CAFB",
+      "originalPath": "out\\chi-ma-review\\s7-8.2.png"
+    },
+    {
+      "name": "s8-10.png",
+      "bytes": 439849,
+      "sha256": "EBA3223F2793A99C916BDA1DFF75B36E8BC5170BB1F576CEA2E9CA4A35A04B5E",
+      "originalPath": "out\\chi-ma-review\\s8-10.png"
+    },
+    {
+      "name": "s8-2.png",
+      "bytes": 268050,
+      "sha256": "68FE41E54ED81E4CF62B58DBF58E613290407E0FE5D7A3B5286883A6E028DF5F",
+      "originalPath": "out\\chi-ma-review\\s8-2.png"
+    },
+    {
+      "name": "s8-5-left.png",
+      "bytes": 107444,
+      "sha256": "348B9D44DBCE1D94A2CDF0D6302C5888C28D4C39EFE930A9B41DC5DD58D4FD44",
+      "originalPath": "out\\chi-ma-review\\s8-5-left.png"
+    },
+    {
+      "name": "s8-5-mid.png",
+      "bytes": 140568,
+      "sha256": "EEC13821ED1F2010B4254BEAB6F4AD656CBAF70AD870A566E14DA89AF2F61E62",
+      "originalPath": "out\\chi-ma-review\\s8-5-mid.png"
+    },
+    {
+      "name": "s8-5.png",
+      "bytes": 399209,
+      "sha256": "DD2C5FA352A2427520F941E2A3C9B3A398354E49F0BE7C9F91A90E24F1B92B6E",
+      "originalPath": "out\\chi-ma-review\\s8-5.png"
+    },
+    {
+      "name": "s8-7.png",
+      "bytes": 488602,
+      "sha256": "6EEECC04C96234FB613DD226ABFE920B4329225397CF1895360D598B6D2C8849",
+      "originalPath": "out\\chi-ma-review\\s8-7.png"
+    },
+    {
+      "name": "s8-8.2.png",
+      "bytes": 487327,
+      "sha256": "CECE53BB443524EBCD5F80D6FB727F21345D139CFC937BF75D0C3F3D80B59348",
+      "originalPath": "out\\chi-ma-review\\s8-8.2.png"
+    },
+    {
+      "name": "s9-5.png",
+      "bytes": 399541,
+      "sha256": "19950633711A0F3C661069DF17EB5EFB1BDF26B53F01F220CAEF3F8B0231FD79",
+      "originalPath": "out\\chi-ma-review\\s9-5.png"
+    },
+    {
+      "name": "s9-7.png",
+      "bytes": 488870,
+      "sha256": "EC43D725DA70A67FB20445FAEE4E86802CD80D32D34BBB25A3C07A5C3F1722B6",
+      "originalPath": "out\\chi-ma-review\\s9-7.png"
+    },
+    {
+      "name": "t-a-0.3.png",
+      "bytes": 379326,
+      "sha256": "A1022DDC57DAD36E59BB86D7B8286C4EE2BE84497EEA50350FCEFC14B42207CB",
+      "originalPath": "out\\chi-ma-review\\t-a-0.3.png"
+    },
+    {
+      "name": "t-a-0.8.png",
+      "bytes": 379928,
+      "sha256": "E2505BAEC0981125373FAFA420543AB1E51B7F6305E3C6592F9F2332077BE82F",
+      "originalPath": "out\\chi-ma-review\\t-a-0.8.png"
+    },
+    {
+      "name": "t-a-1.5.png",
+      "bytes": 173142,
+      "sha256": "D65B123B554AA215D3E8DBC87F31FF32B123665CFAA3C06972F24F9C0BB64C2B",
+      "originalPath": "out\\chi-ma-review\\t-a-1.5.png"
+    },
+    {
+      "name": "t-b-0.3.png",
+      "bytes": 394881,
+      "sha256": "BEE80BA5EC92ED73BEE2E971FF9CEA7F90CB99E1F11469D8113D28EF078988CA",
+      "originalPath": "out\\chi-ma-review\\t-b-0.3.png"
+    },
+    {
+      "name": "t-b-0.8.png",
+      "bytes": 395238,
+      "sha256": "355ABDB66FE7708750DDA13236F94A052EA46D2C2AFD43739FFD22556DDE3105",
+      "originalPath": "out\\chi-ma-review\\t-b-0.8.png"
+    },
+    {
+      "name": "t-b-1.6.png",
+      "bytes": 156461,
+      "sha256": "05EFE06E8B163236D0676EEC7201129D5D4E15782EB557C1D6BE45E159F4445C",
+      "originalPath": "out\\chi-ma-review\\t-b-1.6.png"
+    },
+    {
+      "name": "t-b-2.6.png",
+      "bytes": 273137,
+      "sha256": "5F9E9E89A5699E41C06761A06F5862B4F50185BB3A3F1FFFA9B46D3FC276786F",
+      "originalPath": "out\\chi-ma-review\\t-b-2.6.png"
+    },
+    {
+      "name": "t2-a-1.4.png",
+      "bytes": 324573,
+      "sha256": "EFCD0E630E484B34DBF024EF4AFF9C676954318E08AB67E8BBFAC3AE6A63AFFB",
+      "originalPath": "out\\chi-ma-review\\t2-a-1.4.png"
+    },
+    {
+      "name": "t2-a-1.5.png",
+      "bytes": 171199,
+      "sha256": "5446608038F95ADCD373B0CB97A01ABFDC50B6903169F6D602EBB8082ACDA40A",
+      "originalPath": "out\\chi-ma-review\\t2-a-1.5.png"
+    },
+    {
+      "name": "t2-a-1.6.png",
+      "bytes": 207062,
+      "sha256": "9C29A469F4F35EA49F49D31DDEB7D73158503D7FD4460A66D4A7640277EE035C",
+      "originalPath": "out\\chi-ma-review\\t2-a-1.6.png"
+    },
+    {
+      "name": "t2-b-1.4.png",
+      "bytes": 363173,
+      "sha256": "564FE8B107653122D1CCE97733FA59492ACFF6C191924FD808F1185BE5A23298",
+      "originalPath": "out\\chi-ma-review\\t2-b-1.4.png"
+    },
+    {
+      "name": "t2-b-1.6.png",
+      "bytes": 363278,
+      "sha256": "51A6A325B067CB73CDCE3D57A5CCA4345DD4E88CF3F25D90456C11EE7CC52AF0",
+      "originalPath": "out\\chi-ma-review\\t2-b-1.6.png"
+    },
+    {
+      "name": "t2-b-1.8.png",
+      "bytes": 260342,
+      "sha256": "2F469698F52FE9A9F89BE3DE8761F85DEBE6F55AD229C308155595069FE046AD",
+      "originalPath": "out\\chi-ma-review\\t2-b-1.8.png"
+    },
+    {
+      "name": "t2-b-2.2.png",
+      "bytes": 276589,
+      "sha256": "9F884683FA437AE2EC5E35DA11BFEA182D62389B906A78DA0E5BBE208A087873",
+      "originalPath": "out\\chi-ma-review\\t2-b-2.2.png"
+    },
+    {
+      "name": "t2-b-3.png",
+      "bytes": 273044,
+      "sha256": "EC231B9E1CB29DF290E5B631D06AAD0472F04AFB713861EF65A2F65F0C41A54B",
+      "originalPath": "out\\chi-ma-review\\t2-b-3.png"
+    },
+    {
+      "name": "v2-12.png",
+      "bytes": 283954,
+      "sha256": "DAC708F00C9E6534BCB695480FB07E08358FF17EB6445B99B1D4377792581F5B",
+      "originalPath": "out\\chi-ma-review\\v2-12.png"
+    },
+    {
+      "name": "v2-14.5.png",
+      "bytes": 235833,
+      "sha256": "3DE47F35DF1C3B3738242D09E4B4F61A1D9752236C43450EA9125C8714EAACD0",
+      "originalPath": "out\\chi-ma-review\\v2-14.5.png"
+    },
+    {
+      "name": "v2-15.8.png",
+      "bytes": 225567,
+      "sha256": "751A5E086BF90CCECBE988DFBEA139BF0E15FEAEA56385BCFA0A511B3CFFE1D3",
+      "originalPath": "out\\chi-ma-review\\v2-15.8.png"
+    },
+    {
+      "name": "v2-15.9.png",
+      "bytes": 247060,
+      "sha256": "98EA75CC10A85D644FEA138505280E81C82F8875CCA7C737B914EA650BE0D5E8",
+      "originalPath": "out\\chi-ma-review\\v2-15.9.png"
+    },
+    {
+      "name": "v2-2.png",
+      "bytes": 286624,
+      "sha256": "E82356BA1E618E7C6D1E4AF37A605DFE2AC0A767EA8ADE963898C7FE15237FFD",
+      "originalPath": "out\\chi-ma-review\\v2-2.png"
+    },
+    {
+      "name": "v2-5.png",
+      "bytes": 296742,
+      "sha256": "E333C1644199D4402481C9002849C4D6B548F460DC19B74B50369753631FF302",
+      "originalPath": "out\\chi-ma-review\\v2-5.png"
+    },
+    {
+      "name": "v2-9.png",
+      "bytes": 425465,
+      "sha256": "33D9C4DF710E48C1394FF06A52DA0430C010FB30C1819AA21ECADBC8910F07D0",
+      "originalPath": "out\\chi-ma-review\\v2-9.png"
+    }
+  ]
+}
