@@ -59,7 +59,9 @@ remotion/
 │  └─ audio/<slug>/                  # 按期存放的配音等音频
 ├─ docs/                             # 已有设计与实施记录
 ├─ .cache/<slug>/                    # 可再生的调试打包缓存
-└─ out/                              # 最终交付：成片、正式封面
+└─ out/                              # 按项目归档最终交付，顶层不放文件
+   └─ 01-bazi-prediction/             # 与本期项目目录同名
+      └─ data-analysis-bazi-prediction-vertical.mp4
 ```
 
 共享组件放 `src/`，只供某一期使用的场景、内容与工具留在该期目录。`public/` 也包含按期组织的资源；复制一期时需检查资源依赖，不能只复制TSX。
@@ -155,7 +157,7 @@ src/index.ts → src/Root.tsx → videos/registry.ts
 | 调试截图、成片检查抽帧、帧清单 | 本期 `debug/screenshots/<批次>/` | 按镜头和帧号命名，不混放其他期图片 |
 | 人工检查结论 | 本期 `ANIMATION.md` 的调试记录 | 写明版本、批次、发现与处理，不把生成成功当作验收通过 |
 | 打包等调试缓存 | 根 `.cache/<slug>/` | 可再生，不混入截图目录 |
-| 最终成片、正式封面 | 根 `out/` | 仅用于交付，不存调试图或测试片段 |
+| 最终成片、正式封面 | 根 `out/<序号>-<slug>/` | 与本期项目目录同名；顶层只放项目目录，不存调试图或测试片段 |
 
 截图建议命名为 `S01-f000030.png`，同批 `frames.json` 记录图片文件名、镜头ID与全片帧号；已有抽帧工具沿用其文件名与清单格式。`latest/` 可覆盖，重要确认稿另存独立批次。历史截图可能来自旧实现，不能直接当作当前版本的验收依据。
 
@@ -170,7 +172,9 @@ node videos/traditional-culture/03-chi-ma-chong-yang/verify-frames.mjs
 
 ## 预览、检查与导出
 
-命令均从工程根目录执行。以下使用当前已注册ID：
+命令均从工程根目录执行。正式导出必须显式指定 `out/<序号>-<slug>/<文件名>`，不要省略输出路径使用 CLI 默认位置。同一期的多画幅和多版本文件放在同一个项目目录内。以下使用当前已注册ID：
+
+渲染服务通过 `remotion.config.ts` 使用3101端口，与通常位于3000端口的Studio分开。若报 `window.getStaticCompositions` 未定义，检查是否访问到了Studio页面；若3101被其他服务占用，可在导出命令追加 `--port=<空闲端口>`。
 
 ```powershell
 # 启动Studio
@@ -180,11 +184,12 @@ npm run dev
 npm run typecheck
 npm run compositions
 
-# 最终成片
-npm run render -- traditional-culture-chi-ma-chong-yang out/chi-ma-chong-yang.mp4 --codec=h264
+# 最终成片：先准备与本期项目同名的交付目录
+New-Item -ItemType Directory -Force out/03-chi-ma-chong-yang
+npm run render -- traditional-culture-chi-ma-chong-yang out/03-chi-ma-chong-yang/chi-ma-chong-yang.mp4 --codec=h264
 
 # 正式封面（独立Still）
-npm run still -- chi-ma-cover out/chi-ma-chong-yang-cover.png
+npm run still -- chi-ma-cover out/03-chi-ma-chong-yang/chi-ma-chong-yang-cover.png
 
 # 调试静帧：先准备本期目录，再输出图片
 New-Item -ItemType Directory -Force videos/traditional-culture/03-chi-ma-chong-yang/debug/screenshots/latest
@@ -205,6 +210,13 @@ node --experimental-strip-types --test videos/traditional-culture/03-chi-ma-chon
 
 ## 动画与素材约定
 
+默认科普参考为用户指定的[《运气的形状》R01](references/luck-shape/REFERENCE.md)，原片已归档到根`references/luck-shape/source.mp4`。后续先参考其物件机制、动作解释和镜头衔接编写脚本，再选择组件；每期记录具体参考段落与适配方式，不能只模仿外观或做几何体旋转。声音沿用项目默认规则。
+
+
+所有视频必须保持连续动画与镜头衔接，禁止PPT式页面轮播。分镜明确上镜继承、本镜事件与下镜接续；文字淡入、图形摆放或背景粒子不能代替视觉叙事。完整动态播放验收全片与转场，抽帧和技术检查不代表观感合格；未实播不得标记连续性通过。详见[连续动画硬性规则](CLAUDE.md#连续动画硬性规则)。
+
+
+- 今后科普动画默认使用《千年之后（氛围版）》作为BGM；默认不增加口播、旁白或配音（含TTS），动画音效可按动作需要添加。其他音频或更换BGM须有用户明确要求。脚本默认写上屏文案与视觉叙事，时间轴按阅读和动作节奏安排。BGM默认在抖音发布时添加，导出视频只保留动画音效，不内置音乐；本期ANIMATION.md记录发布配乐事项。除非用户另行明确要求，不下载或嵌入BGM，不以缺少本地音源阻塞制作，也不声称已完成平台配乐或音乐卡点。
 - 复用优先：制作前先查 `src/CATALOG.md` 与源码。公共能力直接引用，单期候选解耦后复用；新增或提取后更新清单。共享能力改动需检查旧期，避免默认值变化影响既有画面。
 - 所有动画由当前帧驱动，使用项目动画工具或 `interpolate()` / `spring()`；禁用CSS animation、transition和定时器驱动的画面。
 - 共享配色、字体与留距从 `src/config/theme.ts` 获取；独有场景保留在本期。

@@ -1,0 +1,33 @@
+{
+  "font": {
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
+    "license": "SIL Open Font License 1.1",
+    "licenseFile": "OFL-serif.txt"
+  },
+  "sfx": [
+    {
+      "file": "whoosh.wav",
+      "duration": 0.82,
+      "seed": 7,
+      "source": "original procedural synthesis; no speech or music samples"
+    },
+    {
+      "file": "impact.wav",
+      "duration": 0.72,
+      "seed": 19,
+      "source": "original procedural synthesis; no speech or music samples"
+    },
+    {
+      "file": "lock.wav",
+      "duration": 0.28,
+      "seed": 31,
+      "source": "original procedural synthesis; no speech or music samples"
+    },
+    {
+      "file": "pulse.wav",
+      "duration": 0.48,
+      "seed": 41,
+      "source": "original procedural synthesis; no speech or music samples"
+    }
+  ]
+}

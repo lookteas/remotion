@@ -1,0 +1,120 @@
+{
+  "id": "R01",
+  "title": "运气的形状",
+  "role": "default science animation style and visual storytelling reference",
+  "addedAt": "2026-10-20",
+  "sourceProvidedBy": "user",
+  "originalPath": "C:\\Users\\lookt\\Videos\\运气的形状.mp4",
+  "file": "source.mp4",
+  "bytes": 68574183,
+  "sha256": "1CE82E1F0771362375716154227CAE4F1CCEB1FC9558743A261F5150D3ABA51F",
+  "metadata": {
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "130.007007"
+    }
+  },
+  "usage": "reference only; not automatically bundled in output or used as soundtrack",
+  "keyframes": [
+    {
+      "seconds": 2,
+      "file": "keyframes/t002.00s.jpg"
+    },
+    {
+      "seconds": 5,
+      "file": "keyframes/t005.00s.jpg"
+    },
+    {
+      "seconds": 12,
+      "file": "keyframes/t012.00s.jpg"
+    },
+    {
+      "seconds": 21,
+      "file": "keyframes/t021.00s.jpg"
+    },
+    {
+      "seconds": 23,
+      "file": "keyframes/t023.00s.jpg"
+    },
+    {
+      "seconds": 28.5,
+      "file": "keyframes/t028.50s.jpg"
+    },
+    {
+      "seconds": 30,
+      "file": "keyframes/t030.00s.jpg"
+    },
+    {
+      "seconds": 38,
+      "file": "keyframes/t038.00s.jpg"
+    },
+    {
+      "seconds": 46,
+      "file": "keyframes/t046.00s.jpg"
+    },
+    {
+      "seconds": 59,
+      "file": "keyframes/t059.00s.jpg"
+    },
+    {
+      "seconds": 62.5,
+      "file": "keyframes/t062.50s.jpg"
+    },
+    {
+      "seconds": 68,
+      "file": "keyframes/t068.00s.jpg"
+    },
+    {
+      "seconds": 72,
+      "file": "keyframes/t072.00s.jpg"
+    },
+    {
+      "seconds": 78,
+      "file": "keyframes/t078.00s.jpg"
+    },
+    {
+      "seconds": 82,
+      "file": "keyframes/t082.00s.jpg"
+    },
+    {
+      "seconds": 86,
+      "file": "keyframes/t086.00s.jpg"
+    },
+    {
+      "seconds": 94,
+      "file": "keyframes/t094.00s.jpg"
+    },
+    {
+      "seconds": 104,
+      "file": "keyframes/t104.00s.jpg"
+    },
+    {
+      "seconds": 108,
+      "file": "keyframes/t108.00s.jpg"
+    },
+    {
+      "seconds": 110,
+      "file": "keyframes/t110.00s.jpg"
+    },
+    {
+      "seconds": 122,
+      "file": "keyframes/t122.00s.jpg"
+    },
+    {
+      "seconds": 127,
+      "file": "keyframes/t127.00s.jpg"
+    }
+  ],
+  "analysisScope": "Whole-video chronological frame sampling at 0.5 fps, plus 2 fps sampling of 26-33s, 56-66s and 101-112s; no claim of full real-time playback or audio audition."
+}

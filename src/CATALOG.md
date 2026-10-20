@@ -1,6 +1,6 @@
 # 动画组件与特效清单
 
-更新日期：2026-10-19。根据当前源码盘点，是新动画制作前的统一检索入口。列出实现位置、参数与限制，不把留在单期中的效果当成已经解耦的公共组件。
+更新日期：2026-10-20。根据当前源码盘点，是新动画制作前的统一检索入口。列出实现位置、参数与限制，不把留在单期中的效果当成已经解耦的公共组件。
 
 ## 先查、再复用、最后新建
 
@@ -18,6 +18,12 @@ rg -n 'Ring60|Cycle|轮盘|cameraAt|Camera' src videos -g '*.ts' -g '*.tsx'
 ```
 
 本期采用什么写在本期脚本；本清单维护跨期可发现的能力。清单ID用于追踪，移动源码时更新路径，ID不随文件移动改变。
+
+## 公共创作参考（不是组件API）
+
+| ID | 默认参考 | 文件与说明 | 使用范围与限制 |
+| --- | --- | --- | --- |
+| R01 | 用户指定《运气的形状》 | [原片](../references/luck-shape/source.mp4)、[方法与时间段](../references/luck-shape/REFERENCE.md)、[元数据与校验](../references/luck-shape/manifest.json) | 今后科普内容、脚本、分镜和动画的默认参考；学习物件机制、连续演变和结果生成，不默认复制内容、音轨或色板。不代表对应效果已实现，仍须检索源码 |
 
 ## 按画面需求查找
 
@@ -51,8 +57,9 @@ rg -n 'Ring60|Cycle|轮盘|cameraAt|Camera' src videos -g '*.ts' -g '*.tsx'
 | C01 | 电影质感叠层 `FilmLook` | [components/Backdrop.tsx](components/Backdrop.tsx) | `grain=0.05,vignette=0.62`；含静态噪声、暗角与顶部压暗，顶部颜色取`palette.bg`，不是运动粒子 |
 | C02 | 章节标签 `SectionLabel` | [components/SceneHeader.tsx](components/SceneHeader.tsx) | `index,title,frame,start,end?,align?`；22帧进入，可选退出；字号固定19，竖屏需先评估可读性 |
 | C03 | 静态采光剖面 `RoomSection` | [components/RoomSection.tsx](components/RoomSection.tsx) | `elevation,accent?,idPrefix?`；角度单位度，避免0°等退化输入；多实例传不同前缀；viewBox1000×620，模型窗上沿离地2.4米 |
+| C04 | 可配置材质纸张 `PaperSheet,SheetColors` | [components/material/PaperSheet.tsx](components/material/PaperSheet.tsx) | 从A10 Paper提取；显式传colors，支持w/h/mark/dark/style/children。默认340×430，外阴影和内边距；多页传独立children，不含字体加载或时间轴。原八字Paper包装保持默认主题；本期作品和来信复用 |
 | W01 | 连续房屋世界 `HouseWorld` | [world/HouseWorld.tsx](world/HouseWorld.tsx) | `frame,elevation,build,protractor,beam,depth,grid,ghost?,ghostOpacity?,dust?`；多个0—1进度控制，固定1900×1400世界与建筑模型；光束、尘埃等内部组件未独立导出 |
-| T01 | 共享主题 `palette,font,layout,ichingTheme` | [config/theme.ts](config/theme.ts) | 前者为纸感/暖色系统，后者为黑金系统；主题内字体族不等于完成字体加载，需加载本期资源 |
+| T01 | 共享主题 `palette,font,layout,ichingTheme,lifeKlineTheme,lifeListingTheme` | [config/theme.ts](config/theme.ts) | 包含纸感/暖色、黑金及人生K线历史黑蓝绿/当前暖金独立主题；主题内字体族不等于完成字体加载，需加载本期资源 |
 
 ### 最小引用示例
 
@@ -120,6 +127,17 @@ const fixedX = rand(0, 7) * 800;
 | F05 | 碰撞标题、古籍年份标记、印章强调 | [SceneChima.tsx](../videos/traditional-culture/03-chi-ma-chong-yang/SceneChima.tsx) | 赤马红羊文案、历史年份、原始局部帧，需拆出动作与数据 |
 | F06 | 刻度环淡出、祝福字出现、秋景收尾 | [EndingBlessingScene.tsx](../videos/traditional-culture/03-chi-ma-chong-yang/EndingBlessingScene.tsx) | 本期第七段索引、重阳文案与固定时间；其他Ending文件不等于当前整片正在使用 |
 
+### 人生K线单期候选（2026-10-20）
+
+| ID | 能力 / 导出 | 源码 | 参数与限制 |
+| --- | --- | --- | --- |
+| A11 | 投影实体、光束、核心球体、空间圆环、旋转机会矩阵 `Solid,Beam,LifeNode,Ring,OpportunityMatrix,project,rotate` | [Geometry.tsx](../videos/data-analysis/02-life-kline/Geometry.tsx) | 显式传center/size/view/frame等；SVG上下文与lifeKlineTheme绑定；Matrix光晕依赖父级life-matrix-glow定义（当前Mechanisms.Material提供）；LifeNode可传orbit=false，默认true保留旧稿行为。逐实体面片排序，非场景级物理/遮挡引擎；跨期先参数化主题、defs与字体，不导入专题content |
+| F09 | 历史稿（用户否定，不作默认风格）：K线急坠→底座展开→身体嵌合/技能拼装/现金缓冲→机会急刹 | [Artwork.tsx](../videos/data-analysis/02-life-kline/Artwork.tsx)、[Scenes.tsx](../videos/data-analysis/02-life-kline/Scenes.tsx) | 专题1080×1920/30fps/44秒，绑定content和scene索引；Sparks是SVG方向火花与椭圆冲击波，非通用粒子系统；复用前提取动作参数及素材依赖 |
+| A12 | 历史稿（用户反馈像维修宣传，非默认方案）：铰接资产、电池供能、分片齿轮装配、现金流缓冲 `AssetWorld,Battery,Skills,Cash,reserveAt` | [AssetWorld.tsx](../videos/data-analysis/02-life-kline/AssetWorld.tsx)、[Mechanisms.tsx](../videos/data-analysis/02-life-kline/Mechanisms.tsx)、[motion.ts](../videos/data-analysis/02-life-kline/motion.ts) | v2.1 / 1080×1920 / 30fps / 2220帧；专题候选，依赖A11、lifeKlineTheme、固定世界坐标与事件表；Material的asset-* defs仅挂载一次。收支事件守恒、断流后消耗留存；齿轮属示意传动，非物理引擎；跨期先解耦尺寸、主题、时间轴与defs |
+| A13 | 人生K线、睡眠运动、练习成作品、生活备用金、招聘窗口 `Chart,RestAndMove,Portfolio,LivingReserve,OpportunityGate,ListingWorld,stagePose` | [ListingChart.tsx](../videos/data-analysis/02-life-kline/ListingChart.tsx)、[ListingObjects.tsx](../videos/data-analysis/02-life-kline/ListingObjects.tsx)、[ListingWorld.tsx](../videos/data-analysis/02-life-kline/ListingWorld.tsx)、[OpportunityGate.tsx](../videos/data-analysis/02-life-kline/OpportunityGate.tsx) | v3.3暖金/米白，1080×1920/30fps/2520帧；持续真实形态蜡烛图，多段反弹后震荡下行到低点，手工情境非真实价格；收支事件守恒，PaperSheet复用C04、回弹复用U05；睡眠先于运动，stagePose保证前段退出；招聘门开合与脚步停在门外，不保证录用。专题坐标、帧区间、字体与文案绑定；跨期先提取参数，不把本期数据当预测模型 |
+
+当前预览：`data-analysis-life-kline-vertical`，活跃入口为ListingWorld，复用U01/U03/U04/L01/C04/T01。F09/A12均为用户否定的历史方案；旧Geometry、AssetWorld保留追溯，不在入口导入。
+
 ## 尚未实现的需求
 
 | ID | 需求 | 核对结论 |
@@ -185,3 +203,15 @@ const fixedX = rand(0, 7) * 800;
 - F08：[Experiment](../videos/data-analysis/01-bazi-prediction/Experiment.tsx)，预测封存、翻面、判定锁合与成对比较；绑定本期流程和文案，预览bazi-b08至bazi-b12。
 
 - v0.7：F08的Compare已改为同案例分流、两侧信息处理、封存及共同规则台；Finale提供信息撤去与未揭晓封套的悬念构图。仍绑定本期content与时间轴，公共物件无改动。
+
+- 2026-10-20：登记A11投影几何与F09人生K线配方，T01追加独立lifeKlineTheme。新片关键帧检查，旧Composition列表可用；未声称旧片全帧回归。
+
+- 2026-10-20：登记A12连续剖面专题候选；A11 LifeNode增加默认兼容的orbit选项。v2.1工程及抽帧检查，完整动态实播与音效验收尚未完成。
+
+- 2026-10-20：v3.0登记A13暖金K线与具体自我投入；提取C04 PaperSheet，八字Paper保留包装，6种输入下纸张HTML/样式相同，旧片900帧整体画面提取前后像素一致。新增独立lifeListingTheme，完整动态与音效验收尚未完成。
+
+- 2026-10-20：A13升级v3.1，修正旧道具永久保留造成串场；顺序睡眠/运动、练习翻成作品、钱包弧线收支、招聘门替换邀请卡。复用U05/C04，未修改公共实现；2520帧可见状态和库存检查、30张抽帧，完整播放及音效待验收。
+
+- 2026-10-20：A13/T01本期标题与K线间距集中配置，收拢图表保留原位置，仅展开时渐增25px偏移；没有修改共享动画组件或其他期主题。
+
+- 2026-10-21：A13增加showIncidents可选参数（默认true，正片兼容）；本期[Cover.tsx](../videos/data-analysis/02-life-kline/Cover.tsx)复用Chart、T01和本地宋体，提供1080×1920手机与1920×1080PC两种Still独立排版。专题固定文案与坐标，跨期先参数化；原有正片导出不变。

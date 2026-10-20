@@ -8,6 +8,18 @@
 - 制作基准：1080×1920、30fps、87秒/2610帧。保留静音可理解的完整字幕；声音作为可选增强，尚未制作或选定素材。
 - 本期目录保存代码、脚本、debug/screenshots；不新建README。代码与脚本已同步为12镜、87秒；Composition ID保持不变，分镜ID改为bazi-b01至bazi-b12。
 
+## 最终交付目录
+
+- 本期交付目录：`out/01-bazi-prediction/`，与本期项目目录同名；视频和正式封面均放此目录，禁止直接放 `out/` 顶层。
+- 正式视频路径：`out/01-bazi-prediction/data-analysis-bazi-prediction-vertical.mp4`。
+- 2026-10-20：将原 `out/data-analysis-bazi-prediction-vertical.mp4` 归档至上述路径。本次仅迁移现有文件，不代表重新渲染或重新验收该成片；预览仍留在 `.cache/bazi-prediction/`。
+- 后续正式导出命令（从工程根目录运行）：
+
+```powershell
+New-Item -ItemType Directory -Force out/01-bazi-prediction
+npm run render -- data-analysis-bazi-prediction-vertical out/01-bazi-prediction/data-analysis-bazi-prediction-vertical.mp4 --codec=h264
+```
+
 ## 这次具体改什么
 
 旧版的问题不只是特效数量少：画面几乎都是“图形淡入—静止—换文字”，图形没有重量、远近和事件发展；固定上图下字让每一屏长得一样。虽然借用了黑金配色，却没有借用参考片的演示能力。

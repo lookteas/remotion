@@ -1,0 +1,53 @@
+{
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "K01",
+      "from": 0,
+      "durationInFrames": 210,
+      "name": "人生K线下跌"
+    },
+    {
+      "id": "K02",
+      "from": 210,
+      "durationInFrames": 210,
+      "name": "处境与价值"
+    },
+    {
+      "id": "K03",
+      "from": 420,
+      "durationInFrames": 210,
+      "name": "什么是投入自己"
+    },
+    {
+      "id": "K04",
+      "from": 630,
+      "durationInFrames": 360,
+      "name": "身体：睡眠与运动"
+    },
+    {
+      "id": "K05",
+      "from": 990,
+      "durationInFrames": 360,
+      "name": "技能：练习成为作品"
+    },
+    {
+      "id": "K06",
+      "from": 1350,
+      "durationInFrames": 420,
+      "name": "现金流：留出生活缓冲"
+    },
+    {
+      "id": "K07",
+      "from": 1770,
+      "durationInFrames": 420,
+      "name": "读懂新项目邀请"
+    },
+    {
+      "id": "K08",
+      "from": 2190,
+      "durationInFrames": 330,
+      "name": "回到低位与选择"
+    }
+  ]
+}

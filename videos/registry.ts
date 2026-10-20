@@ -1,5 +1,7 @@
 import metaBazi from './data-analysis/01-bazi-prediction/video.json';
 import BaziPrediction from './data-analysis/01-bazi-prediction';
+import metaLifeKline from './data-analysis/02-life-kline/video.json';
+import LifeKline from './data-analysis/02-life-kline';
 import type { ComponentType } from 'react';
 import metaZuoBeiChaoNan from './traditional-culture/01-zuo-bei-chao-nan/video.json';
 import ZuoBeiChaoNan from './traditional-culture/01-zuo-bei-chao-nan';
@@ -45,6 +47,7 @@ export type VideoEntry = {
  * 注意：_template/ 只是骨架，不要登记。
  */
 export const videos: VideoEntry[] = [
+  { meta: metaLifeKline as VideoMeta, component: LifeKline },
   { meta: metaBazi as VideoMeta, component: BaziPrediction },
   { meta: metaZuoBeiChaoNan as VideoMeta, component: ZuoBeiChaoNan },
   { meta: metaIChingLife as VideoMeta, component: IChingLife },

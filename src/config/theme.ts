@@ -58,3 +58,25 @@ export const baziTheme = {
   font: '"BaziSerif", serif',
   width: 1080, height: 1920, left: 88, contentWidth: 832,
 } as const;
+
+/** Life K-line: independent cool-material system; existing episodes keep their defaults. */
+export const lifeKlineTheme = {
+  bg: '#030811', surface: '#081629', deep: '#071020',
+  blue: '#277BFF', blueLight: '#70BFFF', green: '#65FFD2',
+  white: '#F0F8FF', secondary: '#9DB4CB', muted: '#52718B',
+  steel: '#123D59', darkSteel: '#081D31', black: '#000000',
+  font: '"LifeKlineSans", "Microsoft YaHei", sans-serif',
+  numberFont: '"Consolas", monospace',
+  width: 1080, height: 1920, left: 90, textWidth: 800,
+} as const;
+
+/** R01 material direction, isolated from the rejected blue machinery draft. */
+export const lifeListingTheme = {
+  ...ichingTheme,
+  ink: '#090907', surface: '#19170F',
+  paper: '#EEE5CA', paperLight: '#FFF7DD', edge: '#8F7951',
+  paperEdge: '#8F7951', bronze: ichingTheme.gold, bronzeDark: ichingTheme.char,
+  font: '"LifeListingSerif", "SimSun", serif',
+  width: 1080, height: 1920, left: 90, textWidth: 900,
+  headingTop: 180, headingLineHeight: 1.4, chartOffsetY: 25,
+} as const;

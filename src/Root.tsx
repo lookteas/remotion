@@ -1,4 +1,5 @@
 import {BaziSceneCompositions} from '../videos/data-analysis/01-bazi-prediction/SceneCompositions';
+import {LifeKlineCovers} from '../videos/data-analysis/02-life-kline/Cover';
 import React from 'react';
 import { Composition } from 'remotion';
 import { videos } from '../videos/registry';
@@ -19,6 +20,7 @@ export const RemotionRoot: React.FC = () => (
       />
     ))}
     <BaziSceneCompositions />
+    <LifeKlineCovers />
     <IChingSceneCompositions />
     <ChiMaSceneCompositions />
   </>
