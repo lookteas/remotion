@@ -19,6 +19,7 @@
 | 01 | [`01-zuo-bei-chao-nan/`](01-zuo-bei-chao-nan/) | `traditional-culture-zuo-bei-chao-nan` | 坐北朝南：从太阳高度角看采光 | 从正午太阳方位与高度角切入，用剖面图对比夏至与冬至的光线进深，解释朝向背后的几何原因，并给出看房要点 | 1:13 | 制作 |
 | 02 | [`02-iching-life/`](02-iching-life/) | `traditional-culture-iching-life` | 六十四卦，原来可以这样看 | 从做饭、种植物和继续学习认识屯、需、谦，用直观动画认识爻、八卦与六十四卦，无公式讲解 | 3:02 | 制作 |
 | 03 | [`03-chi-ma-chong-yang/`](03-chi-ma-chong-yang/) | `traditional-culture-chi-ma-chong-yang` | 赤马重阳，六十年一遇？ | 先讲重阳的登高赏菊，再拆丙午、赤马、六十甲子与《丙丁龟鉴》，最后回到丰收、长寿、敬老；竖版、字幕解说 | 1:43 | 出片 |
+| 04 | [04-ganzhi-modern-life/](04-ganzhi-modern-life/ANIMATION.md) | `traditional-culture-ganzhi-modern-life-vertical` | 天干地支，今天还用在哪？ | 丙午知识动画、入伏与落款、婚礼与搬家生活场景；无口播，片尾3秒互动 | 2:23 | 制作 |
 
 <!-- 行格式（示例，勿直接提交）：
 

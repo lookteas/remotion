@@ -5,7 +5,13 @@
       "source": "remotion-dev/skills",
       "sourceType": "github",
       "skillPath": "skills/remotion-best-practices/SKILL.md",
-      "computedHash": "e2260be89f18fdc72671ced47f7521a6edc3c7cf5d3fb8eeec863bb6d4cb5e4b"
+      "computedHash": "6ff43ff7d5c910a5f4391a3dcd5bff43e228226cef7ba3cf07bf5c795a5a7224"
+    },
+    "remotion-markup": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-markup/SKILL.md",
+      "computedHash": "b022a94c60e35fb0dc35cb4b7662519cccd8a88359ec53372715ebc8f88101b3"
     }
   }
 }

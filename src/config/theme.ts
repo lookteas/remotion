@@ -80,3 +80,13 @@ export const lifeListingTheme = {
   width: 1080, height: 1920, left: 90, textWidth: 900,
   headingTop: 180, headingLineHeight: 1.4, chartOffsetY: 25,
 } as const;
+
+/** Ganzhi daily life: independent paper, dark desk and restrained red. */
+export const ganzhiTheme = {
+  ...baziTheme, ink:'#101311', surface:'#20241F', desk:'#22251F', deskEdge:'#101711',
+  paper:'#F0E4CC', paperLight:'#FFF7E6', paperEdge:'#B8A27C', bronzeDark:'#302C25',
+  gold:'#CEAB6B', goldLight:'#F1D5A0', ivory:'#F5EFDF', secondary:'#BAAF99', muted:'#898976',
+  vermilion:'#A84336', redLight:'#D27859', blue:'#8DA9A3', blueDark:'#354640',
+  font:'"GanzhiSans", "Microsoft YaHei", sans-serif', serif:'"GanzhiSerif", "SimSun", serif',
+  numberFont:'"Arial", sans-serif', width:1080,height:1920,left:90,textWidth:840,
+} as const;

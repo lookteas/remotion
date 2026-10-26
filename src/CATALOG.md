@@ -1,6 +1,6 @@
 # 动画组件与特效清单
 
-更新日期：2026-10-20。根据当前源码盘点，是新动画制作前的统一检索入口。列出实现位置、参数与限制，不把留在单期中的效果当成已经解耦的公共组件。
+更新日期：2026-10-25。根据当前源码盘点，是新动画制作前的统一检索入口。列出实现位置、参数与限制，不把留在单期中的效果当成已经解耦的公共组件。
 
 ## 先查、再复用、最后新建
 
@@ -59,7 +59,7 @@ rg -n 'Ring60|Cycle|轮盘|cameraAt|Camera' src videos -g '*.ts' -g '*.tsx'
 | C03 | 静态采光剖面 `RoomSection` | [components/RoomSection.tsx](components/RoomSection.tsx) | `elevation,accent?,idPrefix?`；角度单位度，避免0°等退化输入；多实例传不同前缀；viewBox1000×620，模型窗上沿离地2.4米 |
 | C04 | 可配置材质纸张 `PaperSheet,SheetColors` | [components/material/PaperSheet.tsx](components/material/PaperSheet.tsx) | 从A10 Paper提取；显式传colors，支持w/h/mark/dark/style/children。默认340×430，外阴影和内边距；多页传独立children，不含字体加载或时间轴。原八字Paper包装保持默认主题；本期作品和来信复用 |
 | W01 | 连续房屋世界 `HouseWorld` | [world/HouseWorld.tsx](world/HouseWorld.tsx) | `frame,elevation,build,protractor,beam,depth,grid,ghost?,ghostOpacity?,dust?`；多个0—1进度控制，固定1900×1400世界与建筑模型；光束、尘埃等内部组件未独立导出 |
-| T01 | 共享主题 `palette,font,layout,ichingTheme,lifeKlineTheme,lifeListingTheme` | [config/theme.ts](config/theme.ts) | 包含纸感/暖色、黑金及人生K线历史黑蓝绿/当前暖金独立主题；主题内字体族不等于完成字体加载，需加载本期资源 |
+| T01 | 共享主题 `palette,font,layout,ichingTheme,lifeKlineTheme,lifeListingTheme,ganzhiTheme` | [config/theme.ts](config/theme.ts) | 包含纸感/暖色、黑金、人生K线及干支生活独立主题；ganzhiTheme新增导出保留旧默认值，GanzhiSans/GanzhiSerif由本期加载；主题内字体族不等于完成字体加载 |
 
 ### 最小引用示例
 
@@ -138,7 +138,13 @@ const fixedX = rand(0, 7) * 800;
 
 当前预览：`data-analysis-life-kline-vertical`，活跃入口为ListingWorld，复用U01/U03/U04/L01/C04/T01。F09/A12均为用户否定的历史方案；旧Geometry、AssetWorld保留追溯，不在入口导入。
 
-## 尚未实现的需求
+### 干支生活单期候选（2026-10-25）
+
+| ID | 能力 / 导出 | 源码 | 参数与限制 |
+| --- | --- | --- | --- |
+| A14 | 手机、生肖贺卡、精密干支开场、金色奔马图形、逐日累积台历、笔顺落款、出生信息结构卡、婚书式婚期安排、参考图式婚礼、搬家货车与入户空间 | [Props.tsx](../videos/traditional-culture/04-ganzhi-modern-life/Props.tsx)、[motion.ts](../videos/traditional-culture/04-ganzhi-modern-life/motion.ts)、[World.tsx](../videos/traditional-culture/04-ganzhi-modern-life/World.tsx)、[LaterScenes.tsx](../videos/traditional-culture/04-ganzhi-modern-life/LaterScenes.tsx)、[Scenes.tsx](../videos/traditional-culture/04-ganzhi-modern-life/Scenes.tsx) | 1080×1920、30fps；v0.7为143秒。绑定ganzhiTheme、本期时间轴及已核实2026日期。马形用侧面头颈、躯干、鬃尾与四肢的本期矢量图，大图小图共用；婚书纸页复用C04 PaperSheet，边框、囍印与时序留在A14；其余复用U01/U02/M01/C01；笔顺数据带Arphic许可。本期开场、婚礼与搬家场景是局部矢量叙事，不是通用动物图标、历史文物复刻、命盘／择日引擎或物理系统；跨期前需解耦数据、动作与时序 |
+
+## 尚未实现的需求（缺口记录）
 
 | ID | 需求 | 核对结论 |
 | --- | --- | --- |

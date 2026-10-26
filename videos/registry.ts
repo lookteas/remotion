@@ -9,6 +9,8 @@ import metaIChingLife from './traditional-culture/02-iching-life/video.json';
 import IChingLife from './traditional-culture/02-iching-life';
 import metaChiMaChongYang from './traditional-culture/03-chi-ma-chong-yang/video.json';
 import ChiMaChongYang from './traditional-culture/03-chi-ma-chong-yang';
+import metaGanzhiModernLife from './traditional-culture/04-ganzhi-modern-life/video.json';
+import GanzhiModernLife from './traditional-culture/04-ganzhi-modern-life';
 
 /**
  * 一期视频的元数据。
@@ -47,6 +49,7 @@ export type VideoEntry = {
  * 注意：_template/ 只是骨架，不要登记。
  */
 export const videos: VideoEntry[] = [
+  { meta: metaGanzhiModernLife as VideoMeta, component: GanzhiModernLife },
   { meta: metaLifeKline as VideoMeta, component: LifeKline },
   { meta: metaBazi as VideoMeta, component: BaziPrediction },
   { meta: metaZuoBeiChaoNan as VideoMeta, component: ZuoBeiChaoNan },
